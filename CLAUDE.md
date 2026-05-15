@@ -1,9 +1,9 @@
-# CLAUDE.md — CProj Execution-Plan Authoring
+# CLAUDE.md — CProj v5 Document Drafting
 
-This repository contains the fifth-pass constitutional project. The current
-task is to author **twenty-eight execution plans** for the project's
-remaining documents, with three additional **plan stubs** (M, W, R) reserved
-for separate authoring in claude.ai.
+This repository contains the fifth-pass constitutional project. Plan authoring
+is complete: thirty-two execution plans exist in `outputs/` (twenty-eight full,
+four stubs: M, W, R, D-Synthesis). The current task is to **draft the v5
+project documents** from those plans.
 
 This file is read at the start of every Claude Code session in this repo.
 The rules below override Claude Code defaults where they conflict.
@@ -21,231 +21,222 @@ disturbance-ecology canons are recent and partial recovery. Five disturbance
 regimes: cultural, biological, physical-environmental, cognitive-and-
 informational, political-economic. "Grown, not built" is colloquial summary.
 
-The arc contains thirty-seven documents across fourteen Parts. The Phase α
-plans (Documents 1, 2, 3) have been written and are stored at
-`project/exemplar_plans/`. These three plans are **calibration anchors** —
-the canonical reference for register, length, structure, and analytical depth
-of every plan you write.
+The arc contains thirty-seven documents across fourteen Parts. Three Phase α
+v5 documents have been drafted: Documents 1, 2, 3 in
+`project/source_documents/v5_completed/`. Document 6 is preserved as
+historical Phase-One synthesis (`project/source_documents/Capstone_Synthesis.md`);
+it is not load-bearing and is cited only where relevant by Document G. The
+remaining v5 documents are to be drafted under this plan.
 
 ---
 
 ## Your Task
 
-Author execution plans in **strict phase order** for the documents listed in
-the work queue below. Each plan goes to `outputs/Execution_Plan_Document_<id>.md`.
+Draft the v5 project documents from the execution plans in `outputs/` in
+strict phase order. Each plan is self-contained and supplies the substantive
+task, required threads, source requirements, structural requirements, cross-
+references, and what-to-avoid for the document it specifies.
 
-### Work Queue (Phase Order — Do Not Reorder)
+### Drafting Work Queue (Phase Order — Do Not Reorder)
 
-**Phase β** — 5 plans: A, 4, B, C, I
-**Phase γ** — 2 plans: K, L *(Document M is a STUB — see below)*
-**Phase δ** — 4 plans: N, O, P, Q
-**Phase ε** — 8 plans: S, T, U, V, 7, 8, 9, 10 *(Document W is a STUB)*
-**Phase ζ** — 4 plans: E, F, H, J
-**Phase η** — 4 plans: D-1, D-2, D-3, D-4 *(Document R is a STUB)*
-**Phase ι** — 1 plan: G
+**Phase β** — 5 documents: A, 4, B, C, I
+**Phase γ** — 2 documents: K, L *(Document M is authored in claude.ai)*
+**Phase δ** — 4 documents: N, O, P, Q
+**Phase ε** — 8 documents: S, T, U, V, 7, 8, 9, 10 *(Document W is authored in claude.ai)*
+**Phase ζ** — 4 documents: E, F, H, J
+**Phase η** — 4 documents: D-1, D-2, D-3, D-4 *(Document R is authored in claude.ai)*
+**Phase θ** — Document D-Synthesis is authored in claude.ai
+**Phase ι** — 1 document: G
 
-**Total: 28 full plans + 3 stubs = 31 deliverables.**
+**Total drafted in Claude Code: twenty-eight documents.** Documents M, W, R,
+and D-Synthesis are drafted in claude.ai per the stub specifications in their
+execution plans. Document G is drafted in Claude Code after D-Synthesis is
+complete.
 
-### Stub Treatment for M, W, R
-
-Documents M (biocultural-governance ontology), W (disturbance-regime
-interactions), and R (eco-mimetic policy-making) will be authored separately
-in claude.ai. Write a stub file for each at the phase-appropriate moment
-(M during Phase γ, W during Phase ε, R during Phase η). A stub contains:
-
-- Section 1 (Document Identification) — fully filled out per planning document.
-- Section 2 (Load-Bearing Triad) — fully filled out, same text as full plans.
-- Every other section header present, with content replaced by:
-  `> **TODO** — This plan to be authored separately in claude.ai. See planning document Section II for substantive specification.`
-- A top-of-file note: `> **STUB** — Reserved for claude.ai authoring; do not draft from this stub.`
+If a v5 document corresponding to one of the claude.ai stubs (M, W, R,
+D-Synthesis) is already present at session start, treat it as substrate
+available for downstream documents that cross-reference it. If absent,
+proceed with the documents that do not depend on it and note the dependency.
 
 ---
 
-## Plan Structure (All Plans, Every Phase)
+## Drafting Protocol
 
-Every plan contains these ten sections in order. Sections that have no
-content are omitted, not retained as empty headers.
+For each document, the session proceeds as follows.
 
-1. **Document Identification** — designation, Part placement, output path, status.
-2. **Load-Bearing Triad** — biocultural governance / eco-mimetic policy-making / disturbance-adapted implementation; one short section; same canonical text in every plan (see "Canonical Triad Block" below).
-3. **Skills to Load** — short list with one-line notes per skill.
-4. **Substantive Task** *(or "Targeted-Edit Task" for preserved-with-edits)* — prose paragraph.
-5. **Required Threads** *(or "Required Edit Threads")* — each thread named with scholars, works, analytical commitment.
-6. **Source Requirements** — primary, secondary, bibliography references.
-7. **Structural Requirements** — scholarly register, citations, no bullets in analytical sections.
-8. **Cross-References** — upstream and downstream documents in the arc.
-9. **Output Requirements** — output path, format, `completeness-not-length` standard.
-10. **What to Avoid** — document-specific anti-patterns only.
+**Read the plan.** `outputs/Execution_Plan_Document_<id>.md` is the canonical
+specification. It names the substantive task or targeted-edit task, the
+required threads, the primary articulators, the source requirements, the
+cross-references, and the constraints. The plan is self-contained; you do
+not need the planning document to draft from it.
 
-### Canonical Triad Block
+**Read the v4 source if applicable.** For preserved-with-edits documents
+(per the plan's Status field), the v4 source in `project/source_documents/`
+is preserved in full; the plan's targeted edits add, extend, or re-frame at
+specified insertion points. For re-specified documents, the v4 source is
+substrate drawn on without duplication. For new documents (no v4 source),
+the plan supplies the substantive specification directly.
 
-Use this exact text for Section 2 in every full plan and every stub:
+**Read the relocations holding files where the plan specifies coordination.**
+For Documents 4, 7, 9, and L, the files in `project/relocations/` specify
+section-extraction, shared-substrate, or cross-citation relocations to
+Document L. The holding files name the specific sections of the v4 sources
+that move and the analytical framing under which Document L absorbs them.
 
-```
-The fifth-pass project rests on a load-bearing triad: **biocultural
-governance** as constitutional ontology (the polity is a complex adaptive
-system cultivated across nested spatial and temporal scales as a biocultural
-formation, with biological substrate and cultural plurality coupled, grounded
-in the biocultural-diversity and biocultural-rights literatures); **eco-
-mimetic policy-making** as operational method (ecology, CAS theory,
-biomimicry, and disturbance-ecology concepts inspire how laws are passed,
-written, and tested); **disturbance-adapted implementation** as temporal
-orientation (intergenerational architecture cultivated to absorb a plural
-disturbance landscape comprising five named regimes — cultural, biological,
-physical-environmental, cognitive-and-informational, political-economic —
-and their interactions). The Indigenous and Eastern traditions are the
-principle's primary articulators; the Western complex-adaptive-systems,
-ecology, biomimicry, and disturbance-ecology canons are recent and partial
-recovery. "Grown, not built" is usable as colloquial summary phrase.
-```
+**Read cross-referenced v5 documents where they already exist.** Documents
+later in the phase order draw on earlier-phase documents. If Document G is
+being drafted last, it draws on every prior v5 document via cross-citation,
+not duplication.
 
-After the canonical block, add one to three sentences specific to the
-document at hand stating how the triad bears on its task.
+**Draft to the v5 output path specified in the plan.** The plan's Section 9
+names the output path under `/mnt/user-data/outputs/`. In this repository
+the corresponding local path is `project/source_documents/v5_completed/`.
+Use the filename the plan specifies.
 
----
+**Apply the move-don't-regenerate principle.** Preserve substantive v4
+content in preserved-with-edits documents; do not rewrite. For re-specified
+documents, draw on v4 substrate without duplicating. For relocated material,
+preserve the analysis in its move; do not reproduce in the source document.
 
-## Core Authoring Rules
-
-- **One plan per file.** Filename: `Execution_Plan_Document_<id>.md`.
-- **Self-contained.** Each plan is consumable by a session that has not seen
-  the planning document. Substantive specifications go in the plan, not as
-  external references.
-- **No word counts. No page counts. No output metrics.** Thoroughness is the
-  standard. `completeness-not-length` governs.
-- **Substantive, not procedural.** Name scholars, works, traditions, threads,
-  primary sources, cross-references. Do not specify paragraphs, sections,
-  or page lengths.
-- **Scholarly register.** Plans are written in scholarly prose. No bullets
-  in analytical sections of the plan. The "Skills to Load" and the document
-  identification metadata can be brief; the substantive sections are prose.
-- **Move-don't-regenerate** governs all preserved-with-edits plans. For
-  re-specified plans, draw on the existing source files in `project/` as
-  substrate without duplicating their substance into the plan.
-- **Mirror the Phase α exemplars in register, length, and structural depth.**
-  When in doubt about how much detail to include, re-read the corresponding
-  thread treatment in Plan 1, 2, or 3.
+**Honor the scholarly register.** No bullets in analytical sections.
+Integrated citations with dates and named works. Indigenous and Eastern
+primary articulators stand at primary-articulator standing, not as
+comparative supplement. The "what survives / what does not" analytical move
+adapted to each document's task. `completeness-not-length` governs.
 
 ---
 
-## Drift-Check Protocol (Critical)
+## Drift-Check Protocol (Per Document)
 
-You will pause after **every single plan** to checkpoint with the user. The
-checkpoint is non-negotiable. After writing each plan file, you must:
+Self-audit after each document drafted, against this checklist:
 
-1. **Re-read the three Phase α exemplar plans at the start of each new Phase**
-   (β, γ, δ, ε, ζ, η, ι) before writing the first plan of that phase. State
-   at the top of your post-write checkpoint message that you have done this
-   when transitioning between phases.
+- Does the document execute every Required Thread from the plan?
+- Are the primary articulators each plan names engaged at primary-articulator
+  standing in their own analytical registers?
+- Does the document avoid synthesis-into-architecture across traditions?
+- Is the move-don't-regenerate principle honored for v4 substrate?
+- Are the cross-references concrete and consistent with the plan?
+- Is the scholarly register consistent with the Phase α v5 exemplars in
+  `project/source_documents/v5_completed/`?
+- Does the document conform to the plan's What-to-Avoid section?
 
-2. **Self-audit each plan against this checklist:**
-   - Does Section 2 contain the canonical triad block verbatim?
-   - Does Section 2 include one to three sentences of document-specific application?
-   - Are all ten sections present (or properly omitted, not empty)?
-   - Are scholars and works named specifically rather than gestured at?
-   - Is the register consistent with the Phase α exemplars?
-   - Are cross-references concrete (e.g., "Document M, Part III") not vague?
-   - Is the plan free of word counts and procedural specifications?
-   - For preserved-with-edits: does the plan say "Targeted-Edit Task" and "Required Edit Threads" in Sections 4 and 5?
+**Per-document checkpoint with the user.** Report after each document the
+file written, the threads executed, the self-audit result, any drift
+indicators or ambiguities encountered, and the next document.
 
-3. **Report to the user with this format:**
-   ```
-   ## Checkpoint — Plan <id> ([Phase letter])
+**Relaxed checkpoint for preserved-with-edits propagation.** For documents
+whose plan is preserved-with-edits (Targeted-Edit Task / Required Edit
+Threads in Sections 4 and 5), batch up to four documents in a single
+checkpoint when each is a clean propagation. For re-specified documents
+(Substantive Task / Required Threads), one document per checkpoint by
+default.
 
-   File written: outputs/Execution_Plan_Document_<id>.md
-   Word approx: <rough number, just for sense of scale, not a target>
+**Mandatory checkpoint regardless of relaxation:** the consequential
+documents (M, D-Synthesis, G — and any document where ambiguity arises),
+the documents drafted in claude.ai (M, W, R, D-Synthesis), and the final
+Document G capstone get a per-document checkpoint without batching.
 
-   Self-audit:
-   - [✓ or ✗] Canonical triad block present
-   - [✓ or ✗] Document-specific triad application (1-3 sentences)
-   - [✓ or ✗] All ten sections present
-   - [✓ or ✗] Scholars and works named specifically
-   - [✓ or ✗] Register matches Phase α exemplars
-   - [✓ or ✗] Cross-references concrete
-   - [✓ or ✗] No word counts / procedural specs
-   - [✓ or ✗] Section 4/5 naming correct for plan type
-
-   Drift indicators: <any concerns about drift from Phase α calibration>
-   Ambiguities encountered: <any places where planning document was unclear>
-
-   Next plan: <id>
-   Proceed? (waiting for user confirmation)
-   ```
-
-4. **Wait for user confirmation before writing the next plan.** Do not
-   batch-write. Do not proceed on your own initiative. The user reviews
-   each plan and either says "proceed" or gives correction.
-
-5. **At phase transitions** (e.g., last plan of Phase β to first plan of
-   Phase γ), prepend the checkpoint with:
-   ```
-   ## Phase Transition — entering Phase <letter>
-
-   Re-reading Phase α exemplars (Plans 1, 2, 3) for calibration anchor...
-   [confirm re-read complete]
-   ```
+**At phase transitions** (e.g., last of Phase β to first of Phase γ),
+prepend the checkpoint with `## Phase Transition — entering Phase <letter>`
+and a brief re-read note confirming the Phase α v5 exemplars have been
+consulted for register calibration.
 
 ---
 
 ## Ambiguity Handling
 
-If the planning document does not unambiguously specify what a plan should
-contain for a given document — for instance, a document where the planning
-document only sketches the substantive task in a single sentence, or where
-multiple readings of the planning document would yield different plans —
-**stop and ask the user immediately**. Do not guess. Do not pick the most
-likely interpretation. The user has chosen explicit ambiguity escalation as
-the policy.
+The plan is the canonical specification. If the plan unambiguously names
+the substantive task, threads, sources, and cross-references, proceed.
+
+If a plan specification is ambiguous, the source files contradict the
+plan, a cross-referenced upstream document is absent, or the relocations
+holding files diverge from the plan's expectations, **stop and ask the user
+immediately**. Do not guess. Do not pick the most likely interpretation.
+The user has chosen explicit ambiguity escalation as the policy.
 
 The escalation format:
 
 ```
-## Ambiguity — Plan <id>
+## Ambiguity — Document <id>
 
-Planning document specification: <quote the relevant section>
+Plan specification: <quote the relevant section>
+
+Conflicting condition: <quote source file, cross-reference, or holding file>
 
 Possible readings:
-1. <reading A and what plan it would produce>
-2. <reading B and what plan it would produce>
+1. <reading A and what document it would produce>
+2. <reading B and what document it would produce>
 
 My recommendation: <which reading and why, briefly>
 
-Awaiting your resolution before writing this plan.
+Awaiting your resolution before drafting this document.
 ```
 
-Wait for user response. Do not write the plan until resolved.
+Wait for user response. Do not draft until resolved.
 
 ---
 
 ## File-Write Conventions
 
-- All plans go to `outputs/Execution_Plan_Document_<id>.md`.
-- Use `<id>` exactly as the planning document specifies: numeric (4, 7, 8, 9, 10), single-letter (A, B, C, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W), or compound (D-1, D-2, D-3, D-4, D-Synthesis).
+- All v5 documents go to `project/source_documents/v5_completed/`.
+- Use the filename specified in each plan's Section 1 / Section 9. Where
+  the plan names `/mnt/user-data/outputs/<filename>`, write to
+  `project/source_documents/v5_completed/<filename>` in this repo.
 - Markdown format. No front-matter.
-- Title line: `# Execution Plan — Document <id>: *<Title>*`
+- Title line: as specified in the plan, typically including the document
+  designation in title.
+
+---
+
+## Skills to Load
+
+Per each plan's Section 3, load:
+- `scholarship-mode` for register and citation discipline
+- `completeness-not-length` for completeness evaluation
+- `direct-to-output-drafting` for writing edits directly to the output file
+- `usage-efficiency` for the move-don't-regenerate discipline
 
 ---
 
 ## What to Avoid
 
-- Drafting two plans in one response without checkpoint.
-- Treating the work queue as suggestions rather than strict order.
-- Filling Section 2 with paraphrased triad text rather than the canonical block.
-- Specifying paragraph counts, page counts, or section depths.
-- Re-arguing the load-bearing triad (state it once, apply it).
-- Inventing scholars, works, or traditions not in the planning document or the bibliography.
-- Inferring intent on ambiguous planning-document passages instead of escalating.
+- Drafting multiple consequential documents in one response without
+  checkpoint.
+- Treating the work queue as suggestions rather than strict phase order.
+- Duplicating substantive material across documents where the plan specifies
+  cross-citation.
+- Synthesizing the multi-traditional canon into one architectural register.
+- Treating Indigenous, Eastern, African, Islamic, Latin American, Caribbean,
+  Pacific Islander, Jewish, dalit, Black-radical, disability-justice, or
+  neurodivergent traditions as comparative supplement to a primarily-Western
+  frame.
+- Rewriting v4 source content in preserved-with-edits documents; the move-
+  don't-regenerate principle governs.
+- Inventing scholars, works, or traditions not in the plan, the planning
+  document, or the bibliography.
+- Inferring intent on ambiguous specifications instead of escalating.
 - Continuing past a checkpoint without user confirmation.
 
 ---
 
 ## Reference Files in This Repo
 
-- `project/Fifth_Pass_Planning_Document.md` — single source of truth for the architecture.
-- `project/bibliography_consolidated_v4.md` — bibliography v4 (v5 not yet written).
-- `project/exemplar_plans/Execution_Plan_Document_1.md` — Phase α exemplar.
-- `project/exemplar_plans/Execution_Plan_Document_2.md` — Phase α exemplar.
-- `project/exemplar_plans/Execution_Plan_Document_3.md` — Phase α exemplar.
-- `project/<document source files>` — the fourth-pass drafted documents and holding files referenced as source material in re-specified plans.
+- `outputs/Execution_Plan_Document_<id>.md` — the canonical specification
+  for each v5 document.
+- `project/Fifth_Pass_Planning_Document.md` — single source of truth for the
+  architecture; not required for drafting once plans are read.
+- `project/bibliography_consolidated_v4.md` — v4 bibliography (v5 additions
+  specified in the planning document Section VII).
+- `project/source_documents/<doc>.md` — v4 source documents used as
+  preserved-with-edits or re-specified substrate per each plan.
+- `project/source_documents/v5_completed/Document_One_..._v5.md`,
+  `Document_Two_..._v5.md`, `Document_Three_..._v5.md` — Phase α v5
+  exemplars and calibration anchors for the v5 document register.
+- `project/relocations/Document_4_relocations.md`,
+  `Document_7_relocations.md`, `Document_9_relocations.md` — holding files
+  specifying material that relocates from Documents 4, 7, 9 to Document L.
+- `project/exemplar_plans/Execution_Plan_Document_1.md` through `..._3.md` —
+  Phase α plan exemplars (historical; plans are now in `outputs/`).
 
 ---
 
@@ -254,10 +245,28 @@ Wait for user response. Do not write the plan until resolved.
 At the start of every session:
 
 1. Read this CLAUDE.md.
-2. Read `project/Fifth_Pass_Planning_Document.md` Section II (document arc).
-3. Read the three Phase α exemplar plans in `project/exemplar_plans/`.
-4. List the current state of `outputs/` to see which plans are already written.
-5. Identify the next plan in the work queue.
-6. Ask the user: "Ready to write Plan <id> ([Phase letter]). Proceed?"
+2. List `project/source_documents/v5_completed/` to see which v5 documents
+   already exist.
+3. Identify the next document in the work queue by phase order.
+4. Read the corresponding plan in `outputs/Execution_Plan_Document_<id>.md`.
+5. Read the Phase α v5 exemplar most analogous to the next document's type
+   (preserved-with-edits or re-specified or new) for register calibration.
+6. Ask the user: "Ready to draft Document <id> ([Phase letter]). Proceed?"
 
-Wait for confirmation before writing.
+Wait for confirmation before drafting.
+
+---
+
+## Model and Venue Note
+
+Drafting in Claude Code: use Opus 4.7 (1M context). Documents M, W, R, and
+D-Synthesis are authored in claude.ai per their stub plans; Document G is
+authored in Claude Code after D-Synthesis is complete in claude.ai and
+present in `project/source_documents/v5_completed/`. The 1M context is
+load-bearing for Document G (capstone reading of the full arc) and for any
+late-phase document that cross-references many prior v5 documents.
+
+See `PROJECT_COMPLETION_ROADMAP.md` in repo root for the human-facing
+strategic roadmap on which work belongs in which venue, the order of
+operations across Claude Code and claude.ai sessions, and the post-drafting
+project state.
