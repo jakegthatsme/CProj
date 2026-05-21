@@ -60,8 +60,10 @@ Dependency constraints fixing the order: `III.01` (biocultural-governance ontolo
 
 Per `CLAUDE.md`: cross-reference-revision documents may be batched up to four per checkpoint; substantive drafts and new documents check in one at a time. Mandatory single-checkpoint for the seven new documents, for `III.01`, `XIII.01`, and `XIV.01`, and for any document where ambiguity arises. Each document additionally carries its eight-criterion completeness-check report at the gate.
 
-## New-session prompt template
+## New-session prompt
 
-> Draft CProj v6 Stage 2 document **`<id>`**. Work on branch `claude/kickoff-prompt-v6-M03uX`. Read `CLAUDE.md` and `project/Stage2_Session_Plan.md`, then `outputs/v6_plans/Execution_Plan_<id>_v6.md` and the substrate it names. Draft the document to substantive depth into `project/source_documents/v6_completed/`, pass the eight-criterion completeness-check gate, then commit and push.
+The simplest prompt is two words: **"continue plan"**. `CLAUDE.md`'s Continue-Plan Protocol defines it — a new session reads `CLAUDE.md`, self-orients (branch, stage, next document in phase order), drafts that document through the gate, commits, pushes, and reports, with no document, file, folder, branch, or phase named by the user. Widen the scope when wanted: "continue plan through Phase v6.γ" or "continue plan until an issue arises."
 
-The session will read the plan and exemplars and confirm "Ready to draft `<id>`. Proceed?" — reply "proceed." To let the session self-select the next document, replace the document id with "the next Stage 2 document in phase order."
+An explicit prompt also works if a specific document is wanted out of order:
+
+> Draft CProj v6 Stage 2 document **`<id>`** on branch `claude/kickoff-prompt-v6-M03uX`. Read `CLAUDE.md` and `project/Stage2_Session_Plan.md`, then the plan and substrate, draft to `v6_completed/`, pass the gate, commit and push.

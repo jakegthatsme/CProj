@@ -326,6 +326,27 @@ Wait for confirmation before drafting.
 
 ---
 
+## Continue-Plan Protocol
+
+When the user opens a session with **"continue plan"** — or "continue", "resume", "next", or any equivalent — it is a standing instruction to **self-orient and execute the next project deliverable** without the user naming any document, file, folder, branch, or phase. Treat "continue plan" as both the instruction and the proceed-confirmation: do not run the Session Start Protocol's step-9 question. Instead, state in one sentence what the next deliverable is, then do it.
+
+Self-orientation algorithm:
+
+1. **Branch.** All v6 work lives on branch `claude/kickoff-prompt-v6-M03uX` (the forty-two execution plans and every completed v6 document). Run `git branch --show-current`. If the session is not on that branch, `git fetch origin claude/kickoff-prompt-v6-M03uX` and bring the working tree to that branch's state (`git checkout`, or merge it into the harness-fixed branch). If that state cannot be reached, stop and tell the user — do not proceed on an empty or wrong branch.
+
+2. **Determine the stage.**
+   - If `outputs/v6_plans/` or `project/source_documents/v6_completed/` does not exist → **Stage 0**: run `project/Claude_Code_Kickoff_Prompt_v6.md`, produce the scaffolding and manifests, stop for confirmation.
+   - If `outputs/v6_plans/` holds fewer than forty-two `Execution_Plan_*_v6.md` files → **Stage 1**: author the next missing plan per `Sixth_Pass_Planning_Document.md` Section X (order: seven new → eleven revised → one major → twenty-three migrated).
+   - If all forty-two plans exist → **Stage 2**: document drafting.
+
+3. **Stage 2 — find the next deliverable.** Read `project/Stage2_Session_Plan.md`. List `project/source_documents/v6_completed/`. The next deliverable is the first document in that file's Session Sequence (strict phase order v6.α → v6.ι) for which no `<id>_v6.md` file yet exists in `v6_completed/`. Draft it per the focused-session workflow and the two transition policies recorded in `Stage2_Session_Plan.md`: read its plan and the substrate the plan names, draft to `v6_completed/`, run the eight-criterion completeness-check gate (Self-Audit Protocols, above), commit, and push.
+
+4. **Report and scope.** One "continue plan" completes one deliverable — one document, or one batch of up to four cross-reference-revision documents under the relaxed checkpoint — then gives the per-document checkpoint and names the next deliverable. The user may widen the scope explicitly ("continue plan through Phase v6.γ", "continue until an issue arises"); honor the stated width.
+
+"Continue plan" does not override the Ambiguity Handling section: if the next step is genuinely ambiguous, a cross-referenced upstream document is missing, or a source contradicts a plan, stop and escalate in the required format rather than guessing.
+
+---
+
 ## Model and Venue Note
 
 Drafting in Claude Code: use Opus 4.7 (1M context). The 1M context is load-bearing for Document G (capstone reading of the full v6 corpus end-to-end) and for any late-phase document that cross-references many prior v6 documents. The 1M context is also load-bearing for the seventh-pass synthesis work specified in `Sixth_Pass_Planning_Document.md` Section XII (corpus-wide end-to-end reading).
