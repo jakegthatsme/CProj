@@ -20,9 +20,9 @@ Stage 0 scaffolding manifest. Records the forty-two active v6 documents (plus th
 | 9 | II.05_Physical_Environmental_Disturbance_Diagnostic_v6.md | T | migrate | v6.ε | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 10 | II.06_Cognitive_Informational_Disturbance_Diagnostic_v6.md | U | revise | v6.ε | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 11 | II.07_Political_Economic_Disturbance_Diagnostic_v6.md | V | migrate | v6.ε | v5 plan ✓; v5 draft ✓ | not yet drafted |
-| 12 | II.08_Disturbance_Regime_Interactions_v6.md | W | migrate | v6.ε | v5 plan ✓; v5 draft ABSENT | not yet drafted |
+| 12 | II.08_Disturbance_Regime_Interactions_v6.md | W | migrate | v6.ε | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 13 | II.09_Climate_Displacement_and_Belonging_v6.md | new | new | v6.ε | authored from canon | not yet drafted |
-| 14 | III.01_Biocultural_Governance_v6.md | M | revise | v6.γ | v5 plan ✓; v5 draft ABSENT | not yet drafted |
+| 14 | III.01_Biocultural_Governance_v6.md | M | revise | v6.γ | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 15 | IV.01_Deep_Substrate_v6.md | L | migrate | v6.γ | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 16 | V.01_CAS_Emergence_Adaptive_Governance_v6.md | K | migrate | v6.γ | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 17 | VI.01_Land_Relations_and_Property_v6.md | new | new | v6.δ | authored from canon | not yet drafted |
@@ -37,7 +37,7 @@ Stage 0 scaffolding manifest. Records the forty-two active v6 documents (plus th
 | 26 | IX.01_Constitutional_Climate_Redesign_v6.md | 8 | migrate | v6.ε | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 27 | X.01_Political_Economy_Transformative_Legislation_v6.md | 9 | migrate | v6.ε | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 28 | XI.01_Three_Operational_Layers_v6.md | 10 | migrate | v6.ε | v5 plan ✓; v5 draft ✓ | not yet drafted |
-| 29 | XII.01_Eco_Mimetic_Policy_Making_v6.md | R | migrate | v6.η | v5 plan ✓; v5 draft ABSENT; v4 source ✓ | not yet drafted |
+| 29 | XII.01_Eco_Mimetic_Policy_Making_v6.md | R | migrate | v6.η | v5 plan ✓; v5 draft ✓; v4 source ✓ | not yet drafted |
 | 30 | XII.02_Currency_Architecture_v6.md | E | migrate | v6.ζ | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 31 | XII.03_E_Democracy_Structural_Public_Check_v6.md | F | revise | v6.ζ | v5 plan ✓; v5 draft ✓ | not yet drafted |
 | 32 | XII.04_Intergenerational_Rectification_v6.md | H | migrate | v6.ζ | v5 plan ✓; v5 draft ✓ | not yet drafted |
@@ -59,9 +59,7 @@ Stage 0 scaffolding manifest. Records the forty-two active v6 documents (plus th
 - Historical preservation: 1 (Document 6 — renamed and preserved, no plan, no completeness-check gate).
 - Total files in `v6_completed/` on completion: 43.
 
-## Input-substrate flags (carried from Stage 0 verification)
+## Input-substrate flags (Stage 0 verification — resolved)
 
-- **II.08 (was W) — v5 draft absent.** W is one of the seven substantively-drafted v5 documents per `CLAUDE.md`, expected in `v5_completed/`; it is not present. No v4 source by that designation. v5 plan present. Does not block Stage 1; blocks the Stage 2 migration of this document as specified.
-- **III.01 (was M) — v5 draft absent.** M is one of the seven substantively-drafted v5 documents per `CLAUDE.md`, expected in `v5_completed/`; it is not present. No v4 source by that designation. v5 plan present. Does not block Stage 1; blocks the Stage 2 migration of this document as specified.
-- **XII.01 (was R) — v5 draft absent.** R is one of the seven substantively-drafted v5 documents per `CLAUDE.md`, expected in `v5_completed/`; it is not present. v4 source `Biomimicry_Ecology_Policymaking.md` is present. v5 plan present. Does not block Stage 1; partially blocks the Stage 2 migration of this document as specified.
+- **II.08 (was W), III.01 (was M), XII.01 (was R) — v5 drafts RESOLVED.** These three v5 drafts were absent from `v5_completed/` at initial Stage 0 verification. They were subsequently supplied via commit `f7e8b10` and are now present and verified substantive: `Document_M_Biocultural_Governance.md` (30,309 words), `Document_W_Disturbance_Regime_Interactions.md` (23,607 words), `Document_R_Eco_Mimetic_Policy_Making.md` (20,178 words). All seven substantively-drafted v5 documents (1, 2, 3, A, M, W, R) are now present. No outstanding input-substrate flags.
 - **XIII.01 (was D-Synthesis) and XIV.01 (was G) — no v5 draft.** Expected: `CLAUDE.md` records both as "missing entirely" at v5; they are drafted fresh at v6. Not a flag.
