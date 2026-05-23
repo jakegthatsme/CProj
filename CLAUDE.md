@@ -108,7 +108,7 @@ Every drafted document and every drafted execution plan runs the filler-density 
 
 2. Reports each term's density. Above ten per one thousand words receives inspection: if the term is load-bearing semantic content (e.g., "thread" in a document centrally about threads), the density is acceptable; if it is gestural padding, the document is revised.
 
-3. For "substantive" specifically: target under five per one thousand words. Above eight is a strong signal of filler. Above fifteen is failure requiring rewrite.
+3. For "substantive" specifically: under five per one thousand words. The threshold applies uniformly to all documents including migration documents; above five is a failure requiring remediation through a targeted reduction pass.
 
 4. Runs a doubled-word scan (`\b(\w+)\s+\1\b`) to catch inline-cleanup artifacts.
 

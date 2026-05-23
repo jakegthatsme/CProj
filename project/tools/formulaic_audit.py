@@ -25,19 +25,13 @@ Improvements over v2:
 
 import os, re, glob, sys
 
-MIGRATION_DOCS = {"I.01", "I.02", "I.03", "I.04", "III.01", "II.08", "XII.01"}
-
 def is_exempt_thread(label: str) -> bool:
-    """Threads explicitly cross-citation, opening, closing, or synthesis are exempt
-    from the substantive-engagement bar (they have different work)."""
+    """Only purely-structural sections (References, Bibliography, Appendix) are skipped.
+    All analytical threads — opening, closing, synthesis, coordination, integration — are
+    audited under the same bar. There is no section-aware exemption."""
     s = label.lower()
-    structural = ["closing", "opening", "synthesis", "references",
-                  "introduction", "outro", "bibliography", "appendix"]
-    coordination = ["cross-regime intersection coordination",
-                    "cross-regime coordination", "cross-reference coordination",
-                    "coordination with documents", "coordination with the",
-                    "integration with the", "integration and forward implications"]
-    return any(k in s for k in structural) or any(k in s for k in coordination)
+    structural = ["references", "bibliography", "appendix"]
+    return any(k in s for k in structural)
 
 def is_top_level_part_header(label: str, body: str) -> bool:
     s = label.lower().strip()
@@ -208,7 +202,6 @@ def audit_doc(path: str, plan_check: bool = True):
     text = open(path).read()
     fname = os.path.basename(path).replace("_v6.md","")
     doc_id = fname.split("_")[0]
-    is_migration = doc_id in MIGRATION_DOCS
     plan_scholars = load_plan_articulators(doc_id) if plan_check else set()
 
     parts = re.split(r"^## ", text, flags=re.MULTILINE)
@@ -242,7 +235,7 @@ def audit_doc(path: str, plan_check: bool = True):
 
         flags = []
         severity = 0
-        if not exempt_kind and not is_migration:
+        if not exempt_kind:
             if collapsed > 2:
                 flags.append(f"COLLAPSED={collapsed}")
                 severity += 3
@@ -290,7 +283,7 @@ def audit_doc(path: str, plan_check: bool = True):
             "missing": sorted(missing)
         }
     bib_report = audit_bibliography(text)
-    return {"doc": fname, "doc_id": doc_id, "is_migration": is_migration,
+    return {"doc": fname, "doc_id": doc_id,
             "threads": results, "plan_coverage": plan_coverage,
             "bibliography": bib_report}
 
@@ -596,10 +589,7 @@ def main():
         n_fail = sum(1 for t in r["threads"] if t["verdict"]=="FAIL")
         n_review = sum(1 for t in r["threads"] if t["verdict"]=="REVIEW")
         n_threads = len(r["threads"])
-        if r["is_migration"]:
-            status = "PASS (migration)"
-            pass_n += 1
-        elif n_fail > 0:
+        if n_fail > 0:
             status = f"FAIL ({n_fail} threads)" + (f" + {n_review} review" if n_review else "")
             fail_n += 1
         elif n_review > 0:

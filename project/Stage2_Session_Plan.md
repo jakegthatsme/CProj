@@ -32,7 +32,7 @@ Per-document workflow inside a session:
 A new session will not know these unless it reads this file:
 
 1. **Migration, not re-drafting, for the seven substantively-drafted exemplars.** Documents 1, 2, 3, A, M, W, R have complete v5 drafts. The v6 task is to migrate the existing draft through the gate — translate cross-references, add forward-pointers (and, for `III.01`/M only, apply the new arts-and-language-and-cultural-production thread as genuine new content) — **not** to re-execute the plan's Section 4–10 task from scratch. Each affected plan carries a Stage-2 drafting note. The other thirty-five documents are drafted substantively from their plans.
-2. **`substantive`-density policy for the migrated exemplars.** For the seven migrated exemplars, inherited `substantive` density up to 8 per one thousand words is accepted as faithful migration (move-don't-regenerate governs). Above 8, apply a **targeted `substantive`-reduction pass** — substituting or removing gestural uses only, no analytical rewrite — which the audit protocol explicitly authorizes. `I.01` was accepted at 7.5. `III.01`/M (v5 at 11.3) and the migrations of W and R get the targeted reduction. For documents drafted substantively from stubs, the standard `substantive` < 5 target governs the new prose directly.
+2. **`substantive`-density policy.** All documents — including the migrated exemplars — meet the standard `substantive` < 5 per one thousand words target. Migration documents that inherit higher densities receive a targeted `substantive`-reduction pass (substituting or removing gestural uses, no analytical rewrite) until the standard is met. There is no exemption.
 
 ## Status
 

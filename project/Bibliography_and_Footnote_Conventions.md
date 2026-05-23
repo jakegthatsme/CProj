@@ -136,22 +136,11 @@ The `project/tools/formulaic_audit.py` script enforces the following bibliograph
 
 The audit reports the bibliography section alongside the formulaic-thinness section in the document gate report.
 
-## V. Migration Path
-
-The seven substantively-drafted v5 exemplars (I.01, I.02, I.03, I.04, II.08, III.01, XII.01) carry v5 Bibliography sections. At the next remediation touch they are brought to v6 strict format:
-
-- Inline citations checked against Bibliography for orphans (fail-condition).
-- Bibliography format checked against the rules in II.C.
-- Tribal affiliations added where missing.
-- Cross-Referenced v6 Documents sub-section added if absent.
-
-The remediation is conducted under the move-don't-regenerate principle: the v5 analytical content is preserved; only the bibliography and citation form is brought to v6 standard.
-
-## VI. Integration with the Document Gate
+## V. Integration with the Document Gate
 
 The eight-criterion completeness check (`CLAUDE.md` Self-Audit Protocols) is extended by criterion 9 (formulaic-thinness audit, per `Formulaic_Thinness_Audit.md`) and by criterion 10 (bibliography-and-footnote audit, per this protocol). A document admitted to `v6_completed/` passes all ten criteria.
 
-## VII. Audit Order at the Gate
+## VI. Audit Order at the Gate
 
 1. Filler-discipline audit (`CLAUDE.md`).
 2. Doubled-word scan (`CLAUDE.md`).

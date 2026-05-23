@@ -55,14 +55,6 @@ The eight-criterion completeness-check gate (`CLAUDE.md` Self-Audit Protocols) i
 
 A document that fails the formulaic-thinness audit does not enter `v6_completed/` until the failing threads are remediated. Remediation deepens — does not pad — the failing threads: adds substantive engagement with named primary articulators; expands enumerated sub-rights to paragraph depth where the rights are the document's analytical content; replaces four-element-collapsed-clause sentences with substantive specification of each element where the right is the document's analytical apex; adds the analytical move the cross-citation enables.
 
-## Exemptions
-
-The audit does not apply to:
-
-- **Migration documents** (the seven substantively-drafted fifth-pass exemplars: `I.01`, `I.02`, `I.03`, `I.04`, `III.01`, `II.08`, `XII.01`), which are governed by the move-don't-regenerate principle. The fifth-pass draft's analytical depth is the baseline; the migration's task is cross-reference translation and forward-pointer addition, not new analytical depth.
-- **Opening and closing synthesis threads** that explicitly position the document within the broader arc rather than carrying substantive content of their own. These threads can be brief without failing the audit.
-- **Plan-specified cross-citation threads** where the plan explicitly states the thread cross-cites without re-derivation. Even here, the cross-citation must add the analytical move at the document's own register (the bounded-decision-right register for the D-series; the cultivation-condition register for Part-XII documents; etc.); a thread that cross-cites without doing any work at its own register fails.
-
 ## Audit Order
 
 At the document gate, audits run in this order:
