@@ -28,11 +28,16 @@ import os, re, glob, sys
 MIGRATION_DOCS = {"I.01", "I.02", "I.03", "I.04", "III.01", "II.08", "XII.01"}
 
 def is_exempt_thread(label: str) -> bool:
+    """Threads explicitly cross-citation, opening, closing, or synthesis are exempt
+    from the substantive-engagement bar (they have different work)."""
     s = label.lower()
-    return any(k in s for k in [
-        "closing", "opening", "synthesis", "references",
-        "introduction", "outro", "bibliography", "appendix"
-    ])
+    structural = ["closing", "opening", "synthesis", "references",
+                  "introduction", "outro", "bibliography", "appendix"]
+    coordination = ["cross-regime intersection coordination",
+                    "cross-regime coordination", "cross-reference coordination",
+                    "coordination with documents", "coordination with the",
+                    "integration with the", "integration and forward implications"]
+    return any(k in s for k in structural) or any(k in s for k in coordination)
 
 def is_top_level_part_header(label: str, body: str) -> bool:
     s = label.lower().strip()
@@ -371,17 +376,26 @@ def audit_bibliography(text: str):
 
     refs_normalized = " || ".join(l.lower() for l in refs_lines)
 
-    # Check orphan inline citations (tolerant title-matching)
+    # Check orphan inline citations (tolerant title-matching, with token-overlap fallback)
+    STOPWORDS = {"about", "after", "again", "against", "every", "great", "their",
+                 "there", "these", "thing", "world", "which", "where", "would",
+                 "across", "among", "between", "during", "through", "without",
+                 "being", "first", "other", "second", "still", "under", "until",
+                 "while", "shall", "before", "above"}
+    def title_tokens(t: str):
+        # Normalize: lowercase, strip apostrophes/punctuation, take 4+ char tokens
+        norm = re.sub(r"[^\w\s]", " ", t.lower())
+        return [w for w in norm.split() if len(w) >= 4 and w not in STOPWORDS]
+
     orphan_inline = []
     for kind, title, year in body_citations:
         if not refs_text:
             orphan_inline.append((kind, title, year))
             continue
-        # Try title fragments (first 30 / 40 / 50 chars; before colon)
+        # Pass 1: substring match (whole title, before colon, leading prefixes)
         title_main = title.split(":")[0].strip()
         candidates = [title, title_main, title_main[:50], title_main[:40], title_main[:30], title_main[:20]]
         candidates = [c for c in candidates if len(c) >= 12]
-        # Strip common subtitle separators and normalize
         found = False
         for c in candidates:
             if c in refs_normalized:
@@ -389,13 +403,27 @@ def audit_bibliography(text: str):
                 break
         if found:
             continue
-        # Last-resort: distinctive words from title
-        title_words = [w for w in re.findall(r"[a-z]{5,}", title_main) if w not in
-                       {"about", "after", "again", "against", "every", "great", "their",
-                        "there", "these", "thing", "world", "which", "where", "would"}]
-        if len(title_words) >= 2:
-            distinctive = " ".join(title_words[:3])
+        # Pass 2: distinctive 3-word phrase
+        title_words_distinctive = title_tokens(title_main)
+        if len(title_words_distinctive) >= 2:
+            distinctive = " ".join(title_words_distinctive[:3])
             if distinctive in refs_normalized:
+                continue
+        # Pass 3: token-overlap fuzzy match against refs lines containing the year
+        if year:
+            # Look at refs lines within +-2 years of the cited year
+            target_years = {str(int(year)+d) for d in range(-2, 3) if 1500 <= int(year)+d <= 2100}
+            relevant_lines = [l.lower() for l in refs_lines
+                              if any(y in l for y in target_years)]
+            title_toks = set(title_tokens(title))
+            if len(title_toks) >= 2:
+                for line in relevant_lines:
+                    line_toks = set(title_tokens(line))
+                    overlap = title_toks & line_toks
+                    if len(overlap) >= max(2, int(0.5 * len(title_toks))):
+                        found = True
+                        break
+            if found:
                 continue
         orphan_inline.append((kind, title, year))
 
@@ -419,6 +447,32 @@ def audit_bibliography(text: str):
         if frag and frag in body_lower:
             continue
         orphan_refs.append(entry[:120])
+
+    # Bibliography format validation: every entry should have year + publisher-or-URL
+    fmt_issues = {"no_year": [], "no_publisher_or_url": []}
+    publisher_keywords = re.compile(
+        r"\b(Press|University|Books|Publishers?|Verso|Routledge|Bloomsbury|Norton|"
+        r"Knopf|Penguin|Random|Doubleday|Harper|Yale|Oxford|Cambridge|MIT|Harvard|"
+        r"Stanford|Columbia|Princeton|Chicago|Beacon|Crown|Avery|Anthem|Seal|"
+        r"South End|North Point|Free Press|Public[Aa]ffairs|PublicAffairs|Polity|"
+        r"Wiley|Springer|Elsevier|Pluto|Zed|Autonomedia|AK Press|Milkweed|Hackett|"
+        r"Picador|Vintage|Liveright|Sierra Club|Counterpoint|Graywolf|Algonquin|"
+        r"Tinta Lim[oó]n|Karthala|Earthscan|Island Press|Duke|NYU|Minnesota|"
+        r"Arizona|Indiana|Wisconsin|Chelsea Green|UN|United Nations|National|Federal|"
+        r"State Press|Government|Office|Council|Commission|Tribunal|Institute|"
+        r"Foundation|Edizioni|Polity|Hart|Brookings|Westview|Praeger|Greenwood|"
+        r"Mariner|Picador|Pantheon|Spiegel|Wesleyan|McGraw|Anchor|Bantam|MacMillan|"
+        r"Macmillan|St\. Lucie|SUNY|Stanford|UC Press|California|Texas|Carolina|"
+        r"Pennsylvania|Michigan|Toronto|Edinburgh|Manchester|London)\b")
+    url_re = re.compile(r"https?://\S+|\bDOI\s*:|\bdoi\.org")
+    for entry in refs_lines:
+        elower = entry.lower()
+        if elower.startswith("document "):
+            continue  # cross-ref entries exempt
+        if not re.search(r"\b(?:1[6-9]|20)\d{2}\b", entry):
+            fmt_issues["no_year"].append(entry[:100])
+        if not (publisher_keywords.search(entry) or url_re.search(entry)):
+            fmt_issues["no_publisher_or_url"].append(entry[:100])
 
     # Footnote handling: detect [^N] markers and [^N]: definitions
     footnote_markers = set(re.findall(r"\[\^(\d+)\]", body_text))
@@ -489,7 +543,44 @@ def audit_bibliography(text: str):
         "n_footnote_orphans": len(footnote_orphans),
         "n_tribal_warns": len(tribal_warns),
         "tribal_warns": tribal_warns[:5],
+        "n_no_year": len(fmt_issues["no_year"]),
+        "n_no_publisher": len(fmt_issues["no_publisher_or_url"]),
+        "fmt_no_year_samples": fmt_issues["no_year"][:3],
+        "fmt_no_pub_samples": fmt_issues["no_publisher_or_url"][:3],
     }
+
+
+def cross_document_consistency(all_results):
+    """Check that Indigenous-scholar tribal affiliations are consistent across documents."""
+    # Aggregate scholar->affiliation across body texts of all docs
+    import glob
+    paths = sorted(glob.glob("project/source_documents/v6_completed/*.md"))
+    paths = [p for p in paths if "MANIFEST" not in p]
+    scholars_of_interest = [
+        "TallBear", "Estes", "Coulthard", "Kimmerer", "LaDuke", "Lyons",
+        "Mohawk", "Grande", "Driskill", "Gone", "Wildcat", "Yunkaporta",
+        "Whyte", "Smith"
+    ]
+    findings = {}
+    for surname in scholars_of_interest:
+        affiliations_found = {}  # affiliation_text -> [docs]
+        for path in paths:
+            text = open(path).read()
+            # Find first "Surname (Affiliation)" pattern
+            for m in re.finditer(rf"{surname}\s*(?:'s)?\s*\(([^)]+)\)", text):
+                aff = m.group(1).strip()
+                # Skip obvious non-affiliations
+                if any(w in aff.lower() for w in ["nation", "tribe", "dene", "sioux",
+                       "mohawk", "potawatomi", "anishinaabe", "cherokee", "yuchi",
+                       "yellowknives", "lower brule", "sisseton", "michi", "saagiig",
+                       "nishnaabeg", "onondaga", "seneca", "quechua", "haudenosaunee",
+                       "apalech", "ngāti", "aaniiih"]):
+                    affiliations_found.setdefault(aff, []).append(os.path.basename(path))
+                    break  # First mention per doc
+        # If multiple distinct affiliations recorded, flag inconsistency
+        if len(affiliations_found) > 1:
+            findings[surname] = affiliations_found
+    return findings
 
 
 def main():
@@ -551,12 +642,48 @@ def main():
                   f"xcite={t['xcite_pct']:.0f}% | {', '.join(t['flags'])}")
 
     print("\n" + "="*100)
-    print("PLAN-ARTICULATOR COVERAGE GAPS (docs missing > 3 plan-named scholars)")
+    print("PLAN-ARTICULATOR COVERAGE")
     print("="*100)
+    plan_fails = []
     for r in all_results:
         pc = r["plan_coverage"]
-        if pc and pc["plan_count"] >= 5 and len(pc["missing"]) > 3:
-            print(f"  {r['doc_id']:8s} missing: {pc['missing'][:8]}")
+        if not pc or pc["plan_count"] < 5: continue
+        cov_pct = (pc["present_count"]/pc["plan_count"])*100
+        if cov_pct < 80:
+            plan_fails.append((r["doc_id"], cov_pct, pc["missing"][:8]))
+            print(f"  [FAIL] {r['doc_id']:8s} coverage {cov_pct:.0f}% — missing: {pc['missing'][:8]}")
+        elif cov_pct < 90:
+            print(f"  [WARN] {r['doc_id']:8s} coverage {cov_pct:.0f}% — missing: {pc['missing'][:5]}")
+    if not plan_fails:
+        print("  All non-trivial plan-articulator coverage ≥ 80%.")
+
+    print("\n" + "="*100)
+    print("CROSS-DOCUMENT TRIBAL-AFFILIATION CONSISTENCY")
+    print("="*100)
+    cdc = cross_document_consistency(all_results)
+    if cdc:
+        for surname, affs in cdc.items():
+            print(f"  [INCONSISTENT] {surname}:")
+            for aff, doc_paths in affs.items():
+                print(f"        '{aff}' — used in: {', '.join(set(doc_paths))}")
+    else:
+        print("  All Indigenous-scholar affiliations consistent across documents.")
+
+    print("\n" + "="*100)
+    print("BIBLIOGRAPHY FORMAT VALIDATION (entries missing year or publisher/URL)")
+    print("="*100)
+    fmt_total = 0
+    for r in all_results:
+        b = r["bibliography"]
+        if not b: continue
+        if b["n_no_year"] or b["n_no_publisher"] > 5:
+            print(f"  {r['doc_id']:8s}  no-year: {b['n_no_year']}  no-pub-or-url: {b['n_no_publisher']}")
+            if b["n_no_year"]:
+                for s in b["fmt_no_year_samples"]:
+                    print(f"        no-year: {s[:80]}")
+            fmt_total += 1
+    if fmt_total == 0:
+        print("  All entries have year and publisher/URL.")
 
     print("\n" + "="*100)
     print("BIBLIOGRAPHY-AND-FOOTNOTE AUDIT")

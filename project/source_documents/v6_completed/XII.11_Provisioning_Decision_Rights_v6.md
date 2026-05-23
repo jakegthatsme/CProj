@@ -194,6 +194,8 @@ Barlow, Maude. *Blue Future: Protecting Water for People and the Planet Forever*
 
 Berry, Wendell. *The Unsettling of America: Culture and Agriculture*. San Francisco: Sierra Club Books, 1977.
 
+Estes, Nick (Lower Brule Sioux). *Our History Is the Future: Standing Rock Versus the Dakota Access Pipeline, and the Long Tradition of Indigenous Resistance*. London: Verso, 2019.
+
 De Schutter, Olivier. *Reports of the United Nations Special Rapporteur on the Right to Food, 2008–2014*. UN Human Rights Council. Final report 2014.
 
 La Vía Campesina. *Nyéléni Declaration: Forum for Food Sovereignty*. Sélingué, Mali, 2007. *Six pillars of food sovereignty*.
