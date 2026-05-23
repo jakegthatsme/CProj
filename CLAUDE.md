@@ -131,9 +131,13 @@ print(f'doubled-word matches: {len(doubles)}')
 " "$f"
 ```
 
+### Formulaic-Thinness Audit
+
+The filler-discipline audit catches inflation (padding that lifts the standard-twelve densities). It does not catch deflation — drafts in which the formal apparatus (the four-element specification format; cross-citation to other documents; lists of named articulators) replaces analytical engagement. `project/Formulaic_Thinness_Audit.md` specifies the complementary audit. It computes named-scholar-year-work tuples per thread (≥ 3 per substantive Required Thread; ≥ 1 per plan-named primary articulator); sub-right paragraph depth where threads enumerate clusters (≥ 150 words per element when the right is the document's analytical content; < 100 flags formulaic enumeration); four-element-collapsed-clause sentences (≤ 2 per thread); cross-citation ratio (< 25 percent of analytical sentences); and tradition-and-movement concreteness (every named movement/tradition carries at least one named instance in the body). A document fails the audit when any substantive Required Thread enumerates sub-rights or cluster elements at single-sentence labelled-clause depth, or cross-cites to other documents without doing the formal-architectural work at the present document's register, or names primary articulators in the references without engaging them at scholar-year-work tuple depth in the body. Migration documents and explicit cross-citation threads carry the exemptions specified in the audit protocol. The audit runs at the gate alongside the filler-discipline audit; the eight-criterion completeness check is extended to a ninth criterion (the formulaic-thinness audit passes).
+
 ### Completeness-Check Gate
 
-The sixth pass is a completeness-gated migration. Every active document — including the seven substantively-drafted v5 documents (1, 2, 3, A, M, W, R) — passes the completeness check before it is renamed under the v6 convention and admitted to `v6_completed/`. A document that fails does not enter `v6_completed/` until remediated and re-checked. The historical Document 6 is exempt (no plan, no required threads). A document passes when all eight criteria hold:
+The sixth pass is a completeness-gated migration. Every active document — including the seven substantively-drafted v5 documents (1, 2, 3, A, M, W, R) — passes the completeness check before it is renamed under the v6 convention and admitted to `v6_completed/`. A document that fails does not enter `v6_completed/` until remediated and re-checked. The historical Document 6 is exempt (no plan, no required threads). A document passes when all nine criteria hold (criteria 1–8 below plus the formulaic-thinness audit specified above):
 
 1. Every Required Thread named in the plan is executed in the draft.
 2. Every primary articulator named in the plan is engaged at primary-articulator standing, with tribal/identity affiliation where applicable and full first-mention conventions.
