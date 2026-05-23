@@ -26,6 +26,8 @@ The four-element specification format — scope, scale, feedback condition, suns
 
 The cluster's coordination with the broader Part-VI architecture operates through citation of the seven Part VI documents for the cultivation specifications without re-derivation. Documents VI.01 (Land Relations and Property), VI.02 (Food, Soil, and Agriculture), VI.03 (Energy as Cultivation), VI.04 (Cradle-to-Cradle), VI.05 (Regenerative Built Environment), VI.06 (Health as Cultivation), and VI.07 (Care, Kinship, and Social Reproduction) together carry the material-substrate architecture the project's broader engagement articulates. The present document specifies the formal bounded-decision-right architecture conditioning those substantive specifications.
 
+The provisioning analytical apparatus the document operationalizes draws on substantive scholarly substrate at the bounding-work register. Karl Polanyi's *The Great Transformation: The Political and Economic Origins of Our Time* (Farrar & Rinehart, 1944) supplies the foundational analytical apparatus on the "fictitious commodities" — land, labor, money — whose constitution as commodities Polanyi articulates as the substantive political-economic transformation of the nineteenth century, with the analytical implication that any provisioning architecture must engage the constitutive conditions under which substrates of livelihood operate as commodity or as commons. Amartya Sen's *Development as Freedom* (Knopf, 1999) extends the analytical apparatus to capabilities-based provisioning — the architectural commitment that provisioning is evaluated against the substantive capabilities populations have for valuable functioning rather than against aggregate income measures. Elinor Ostrom's *Governing the Commons: The Evolution of Institutions for Collective Action* (Cambridge University Press, 1990) supplies the institutional-architectural analytical apparatus on common-pool-resource governance under which much of the provisioning architecture this document specifies operates at primary-articulator standing. The bounded-decision-right architecture this document conducts at the habitat-and-population scale band reads these analytical resources as foundational substrate, with the seven Part-VI documents carrying the substantive cultivation work the bounded rights condition.
+
 The provisioning rights at this band coordinate with the international-human-rights foundational architecture — the Universal Declaration of Human Rights (1948), particularly Article 25's right to a standard of living adequate for health and well-being including food, clothing, housing, medical care, and necessary social services; the International Covenant on Economic, Social and Cultural Rights (1966), particularly Article 11's right to an adequate standard of living and Article 12's right to the enjoyment of the highest attainable standard of physical and mental health; the United Nations Declaration on the Rights of Indigenous Peoples (2007), particularly Articles 26 through 28 on land-and-resource rights. The international-human-rights architecture supplies analytical resource that the provisioning architecture engages, with the Indigenous land-and-resource-sovereignty inheritance Document I.01 specifies operating at primary-articulator standing for the land-and-resource provisioning specifications.
 
 ---
@@ -151,6 +153,14 @@ The cultivation work proceeds.
 ---
 
 ## References
+
+### Foundational Political-Economy and Provisioning Substrate (Thread A)
+
+Ostrom, Elinor. *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge: Cambridge University Press, 1990.
+
+Polanyi, Karl. *The Great Transformation: The Political and Economic Origins of Our Time*. New York: Farrar & Rinehart, 1944.
+
+Sen, Amartya. *Development as Freedom*. New York: Knopf, 1999.
 
 ### Publicly Funded Research Returns
 

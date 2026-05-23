@@ -499,3 +499,5 @@ Combahee River Collective. "The Combahee River Collective Statement." 1977. In *
 hooks, bell. *Teaching to Transgress: Education as the Practice of Freedom*. New York: Routledge, 1994.
 
 Mingus, Mia. "Access Intimacy, Interdependence and Disability Justice." *Leaving Evidence* (blog), April 12, 2017. https://leavingevidence.wordpress.com.
+
+Tooze, Adam. *Chartbook* (essays on polycrisis and contemporary political economy, 2020–present). https://adamtooze.substack.com.

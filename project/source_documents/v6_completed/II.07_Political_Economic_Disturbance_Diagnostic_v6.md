@@ -161,3 +161,5 @@ Stoller, Matt. *Goliath: The 100-Year War Between Monopoly Power and Democracy*.
 Wu, Tim. *The Curse of Bigness: Antitrust in the New Gilded Age*. Columbia Global Reports, 2018.
 
 Zucman, Gabriel. *The Hidden Wealth of Nations: The Scourge of Tax Havens*. University of Chicago Press, 2015.
+
+CHIPS and Science Act of 2022. United States Public Law 117-167.

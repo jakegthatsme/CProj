@@ -125,6 +125,8 @@ The political-economic-regime side of the intersection is the capital-concentrat
 
 Document II.08's interactions diagnostic specifies the broader cross-regime cascade architecture — the cultural-cognitive coupling, the cultural-political-economic coupling, the cultural-physical-environmental coupling, and the biological-political-economic coupling. This document specifies the political-economic-cultural coupling as it operates in the contemporary American context; it is not a comprehensive cross-regime diagnostic. The comprehensive diagnostic is Document II.08's; this document is the concrete-architecture specification at the dominant pathway.
 
+The intersection-architectural analytical apparatus the cross-regime coordination engages operates through substantive scholarly substrate. Karl Polanyi's *The Great Transformation: The Political and Economic Origins of Our Time* (Farrar & Rinehart, 1944) supplies the foundational analytical articulation of the way political-economic-architectural transformations operate through cultural-architectural re-organization — the substantive analytical move that the disembedding of the economy from social relations and the subsequent counter-movements proceed at the cross-regime register rather than at any single regime's terrain. Wolfgang Streeck's *Buying Time: The Delayed Crisis of Democratic Capitalism* (Verso, 2014) extends the analytical apparatus to the contemporary configuration in which the political-economic regime's contradictions are managed through cultural-architectural displacement rather than through resolution at the political-economic register. Nancy Fraser's *Cannibal Capitalism: How Our System Is Devouring Democracy, Care, and the Planet — and What We Can Do About It* (Verso, 2022) supplies the contemporary analytical engagement with the multi-regime coupling under which the political-economic regime cannibalizes the cultural, ecological, and care-substrate regimes that condition its operation — the analytical apparatus through which the cross-regime architecture this document specifies is read.
+
 ---
 
 ## Part Seven — Indigenous, Underrepresented, and Multi-Traditional Engagement as Cultivation-Condition Substrate
@@ -139,13 +141,25 @@ The comparative international anti-corruption tradition runs through the Transpa
 
 ## Part Eight — The Architectural Response as Cultivation-Condition Specifications
 
-The architectural-response engagement the project record carried is re-framed as cultivation-condition specifications at appropriate scales of the nested-scales reference frame rather than as engineered safeguards specifiable in advance of cultivation. The structural responses — campaign-finance reform architecture, donor-disclosure architecture, public-financing architecture, constitutional-amendment proposals on money-and-speech, platform-regulation architecture, and the antitrust-and-monopoly response — are read as cultivation conditions rather than as fixed institutional fixtures.
+The architectural-response engagement the project record carried is re-framed as cultivation-condition specifications at appropriate scales of the nested-scales reference frame rather than as engineered safeguards specifiable in advance of cultivation. The structural responses — campaign-finance reform architecture, donor-disclosure architecture, public-financing architecture, constitutional-amendment proposals on money-and-speech, platform-regulation architecture, and the antitrust-and-monopoly response — are read as cultivation conditions rather than as fixed institutional fixtures. Each response carries its own contemporary scholarly literature that the cultivation-discipline re-framing engages.
+
+### Campaign-Finance, Disclosure, and Public-Financing Literature
+
+Lawrence Lessig's *Republic, Lost: How Money Corrupts Congress — and a Plan to Stop It* (Twelve, 2011) supplies the contemporary diagnostic on campaign-finance-architectural dependency-corruption — the analytical move that Congress operates under structural dependence on a small donor class rather than under the constitutional commitment to dependence on the people alone. Lessig's analytical work specifies that the dependency operates not at the level of individual quid pro quo (the framing the contemporary judicial doctrine treats as exhausting the corruption category) but at the systemic-architectural level at which the legislative agenda, the committee structure, and the analytical attention of legislators are conditioned by the funding architecture. The architectural implication for the cultivation-condition framing is that campaign-finance response operates at the level of the dependency-architecture rather than at the level of individual-contribution-limit regulation. Bertram Levine and Michael Johnston's analytical work on the comparative-anticorruption record, articulated through Johnston's *Syndromes of Corruption: Wealth, Power, and Democracy* (Cambridge University Press, 2005), supplies the cross-national analytical apparatus on the conditions under which campaign-finance architecture sustains democratic accountability and the conditions under which it fails. The Brennan Center for Justice's *Money in Politics* documentation supplies the contemporary empirical record on small-donor public-financing experiments — the New York City matching-funds program, the Seattle democracy-voucher program, the federal Government by the People Act proposal — through which the public-financing architecture has begun to be cultivated as alternative to the dependency architecture Lessig diagnoses.
+
+### Antitrust and Platform-Regulation Literature
+
+The antitrust-and-monopoly response operates through the contemporary anti-monopoly scholarship engaged in Part Six — Lina Khan's "Amazon's Antitrust Paradox" (*Yale Law Journal* 126, no. 3, 2017), Tim Wu's *The Curse of Bigness: Antitrust in the New Gilded Age* (Columbia Global Reports, 2018), and Matt Stoller's *Goliath: The 100-Year War Between Monopoly Power and Democracy* (Simon & Schuster, 2019). The cultivation-condition re-framing reads the antitrust response not as enforcement-architectural fix to a contemporary market-structure pathology but as the recovery of the Brandeisian-and-anti-monopoly tradition the post-1976 doctrinal sequence the document's Part Three diagnoses had substantially displaced. Sanjukta Paul's analytical work on antitrust-and-labor, articulated through *Solidarity in the Shadow of Antitrust: Labor and the Legal Idea of Competition* (Cambridge University Press, 2023), extends the analytical apparatus into the labor-architectural register that the contemporary antitrust framework systematically excludes. The platform-regulation response engages Shoshana Zuboff's *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power* (PublicAffairs, 2019) on the architectural commitments under which contemporary platform capitalism operates, and Yochai Benkler's earlier analytical work in *The Wealth of Networks: How Social Production Transforms Markets and Freedom* (Yale University Press, 2006) on the alternative network-architectural commitments the platform regulation must cultivate rather than merely constrain. The Klobuchar antitrust proposals (the American Innovation and Choice Online Act and the Open App Markets Act, introduced 2021–2022), the European Union's Digital Markets Act (Regulation (EU) 2022/1925, entered into force 2023), and the Digital Services Act (Regulation (EU) 2022/2065, entered into force 2024) supply the contemporary statutory-architectural record through which the platform-regulation response has begun operationalization.
+
+### Constitutional-Amendment Movements
+
+The constitutional-amendment proposals on money-and-speech are engaged through Move to Amend (founded 2009 in response to *Citizens United*), American Promise (founded 2016), Free Speech for People (founded 2010), and the broader constitutional-amendment infrastructure on the corporate-personhood and money-as-speech questions. John Bonifaz's analytical work through Free Speech for People supplies the legal-architectural specification of the proposed Twenty-Eighth Amendment alternatives; the Annenberg Public Policy Center's tracking of state-level constitutional-amendment resolutions documents the substantive constitutional-political record. The cultivation-discipline re-framing reads these proposals as cultivation-condition specifications operating at biosphere-and-ecozone scales addressed in Document XII.09 (Foundational Decision Rights) rather than as fixed-text amendments specifiable in advance of cultivation — the substantive analytical commitment is that the amendment work proceeds under the legislative-cycle architecture Document XII.01 articulates rather than under the single-text-once-ratified framing the contemporary constitutional-amendment discourse has often presupposed.
 
 ### Coordination with Part XII Structural-Commitments Documents
 
 The architectural response is coordinated with the structural-commitments documents of Part XII. Document XII.02 (Currency Architecture) specifies the political-economic scale-matched cultivation conditions through the dual-currency unidirectional-convertibility architecture. Document XII.03 (E-Democracy as Structural Public Check) specifies the feedback-condition cultivation the platform-capture analysis anchors, through digital-deliberation infrastructure and the wider public-check architecture. Document XII.04 (Intergenerational Rectification) specifies the temporal cultivation work necessary to address the multi-generational accumulation effects of concentrated wealth. Document XII.05 (the Neurodivergent Polis) specifies the cognitive-plurality cultivation conditions through which deliberation is protected against the manipulation the platform architecture executes. Documents XII.09 through XII.12 (the foundational, public-check, provisioning, and cognitive-and-intergenerational decision rights) specify the bounded decision rights at scale through which the cultivation conditions are operationalized. Document XII.01 (Eco-Mimetic Policy-Making) specifies the operational method by which the cultivation-condition specifications are operationalized through legislative-cycle and legal-drafting architecture.
 
-The architectural response is not specified as a designed institutional fixture; cultivation proceeds through the feedback-and-monitoring conditions the response specifies, not through an imposed institutional architecture. The constitutional-amendment proposals on money-and-speech — engaged through the Move to Amend, American Promise, and related constitutional-amendment movements — are read as cultivation-condition specifications operating at biosphere-and-ecozone scales, addressed in Document XII.09, rather than as fixed-text amendments specifiable in advance of cultivation.
+The architectural response is not specified as a designed institutional fixture; cultivation proceeds through the feedback-and-monitoring conditions the response specifies, not through an imposed institutional architecture. The constitutional-amendment proposals on money-and-speech are read as cultivation-condition specifications operating at biosphere-and-ecozone scales, addressed in Document XII.09, rather than as fixed-text amendments specifiable in advance of cultivation.
 
 ### Downstream Operationalization
 
@@ -286,3 +300,35 @@ Zhuangzi. *Zhuangzi: The Essential Writings*. Translated by Brook Ziporyn. India
 Zuboff, Shoshana. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. New York: PublicAffairs, 2019.
 
 Zucman, Gabriel. *The Hidden Wealth of Nations: The Scourge of Tax Havens*. Chicago: University of Chicago Press, 2015.
+
+### Architectural Response and Cross-Regime Coordination (Parts Six and Eight Substrate)
+
+Fraser, Nancy. *Cannibal Capitalism: How Our System Is Devouring Democracy, Care, and the Planet — and What We Can Do About It*. London: Verso, 2022.
+
+Johnston, Michael. *Syndromes of Corruption: Wealth, Power, and Democracy*. Cambridge: Cambridge University Press, 2005.
+
+Lessig, Lawrence. *Republic, Lost: How Money Corrupts Congress — and a Plan to Stop It*. New York: Twelve, 2011.
+
+Paul, Sanjukta. *Solidarity in the Shadow of Antitrust: Labor and the Legal Idea of Competition*. Cambridge: Cambridge University Press, 2023.
+
+Polanyi, Karl. *The Great Transformation: The Political and Economic Origins of Our Time*. New York: Farrar & Rinehart, 1944.
+
+Streeck, Wolfgang. *Buying Time: The Delayed Crisis of Democratic Capitalism*. London: Verso, 2014.
+
+Tu Weiming. *Centrality and Commonality: An Essay on Confucian Religiousness*. Albany: SUNY Press, 1989.
+
+Brennan Center for Justice. *Money in Politics* documentation and reports. New York University School of Law.
+
+Digital Markets Act. Regulation (EU) 2022/1925. European Parliament and Council, 2022. Entered into force 2023.
+
+Digital Services Act. Regulation (EU) 2022/2065. European Parliament and Council, 2022. Entered into force 2024.
+
+American Innovation and Choice Online Act. United States Senate, S.2992, 117th Congress, 2021–2022.
+
+Open App Markets Act. United States Senate, S.2710, 117th Congress, 2021–2022.
+
+Move to Amend. Public documentation. Founded 2009. https://movetoamend.org.
+
+American Promise. Public documentation. Founded 2016. https://americanpromise.net.
+
+Free Speech for People. Public documentation. Founded 2010. https://freespeechforpeople.org.

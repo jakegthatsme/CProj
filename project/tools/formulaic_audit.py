@@ -239,13 +239,15 @@ def audit_doc(path: str, plan_check: bool = True):
             if collapsed > 2:
                 flags.append(f"COLLAPSED={collapsed}")
                 severity += 3
-            if xcite_pct > 50 and wc < 600:
+            # XCITE-SHORT triggers only when engagement is also low — high engagement
+            # signals a substantive coordination thread, not a stub
+            if xcite_pct > 50 and wc < 600 and engagement_score < 5:
                 flags.append(f"XCITE-SHORT={xcite_pct:.0f}%@{wc}w")
                 severity += 3
-            elif xcite_pct > 50:
+            elif xcite_pct > 50 and engagement_score < 5:
                 flags.append(f"XCITE-HIGH={xcite_pct:.0f}%")
                 severity += 2
-            elif xcite_pct > 40:
+            elif xcite_pct > 40 and engagement_score < 5:
                 flags.append(f"XCITE={xcite_pct:.0f}%")
                 severity += 1
             if engagement_score < 2 and wc > 700:
@@ -388,7 +390,7 @@ def audit_bibliography(text: str):
         # Pass 1: substring match (whole title, before colon, leading prefixes)
         title_main = title.split(":")[0].strip()
         candidates = [title, title_main, title_main[:50], title_main[:40], title_main[:30], title_main[:20]]
-        candidates = [c for c in candidates if len(c) >= 12]
+        candidates = [c for c in candidates if len(c) >= 8]
         found = False
         for c in candidates:
             if c in refs_normalized:
@@ -462,6 +464,14 @@ def audit_bibliography(text: str):
         elower = entry.lower()
         if elower.startswith("document "):
             continue  # cross-ref entries exempt
+        # Skip metadata/preamble lines that aren't bibliography entries
+        if any(m in elower for m in [
+            "composed under the", "the references list", "the reference apparatus",
+            "the reference list", "organized by analytical-thematic"]):
+            continue
+        # Skip "ongoing", "selected writings/papers/essays" — living-corpus entries
+        if re.search(r"\b(ongoing|selected (writings|papers|essays|publications)|corpus)\b", elower):
+            continue
         if not re.search(r"\b(?:1[6-9]|20)\d{2}\b", entry):
             fmt_issues["no_year"].append(entry[:100])
         if not (publisher_keywords.search(entry) or url_re.search(entry)):

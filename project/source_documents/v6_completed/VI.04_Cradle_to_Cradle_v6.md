@@ -179,3 +179,5 @@ Mumford, Lewis. *Technics and Civilization*. Harcourt, Brace, 1934.
 Mumford, Lewis. *The Myth of the Machine*. Harcourt, Brace and World, 1967.
 
 Schumacher, E. F. *Small Is Beautiful: A Study of Economics as if People Mattered*. Blond and Briggs, 1973.
+
+New York Digital Fair Repair Act of 2022. New York State Senate Bill S4104A.

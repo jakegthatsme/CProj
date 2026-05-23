@@ -26,6 +26,8 @@ The four-element specification format — scope, scale, feedback condition, suns
 
 The cluster's coordination with the broader Part-XII architecture operates through Document XII.03 (E-Democracy and the Structural Public Check), which carries the operational substrate for the deliberative-public-check architecture at substantive depth, and through Document II.06 (Cognitive-Informational Disturbance Diagnostic), which carries the diagnostic on the cognitive-and-informational dynamics under which the public-check architecture must operate. The present document does not duplicate either of those analytical engagements; it specifies the formal bounded-decision-right architecture under which the operational substrate is held.
 
+The public-check analytical apparatus the document operationalizes draws on substantive scholarly substrate. John Dewey's *The Public and Its Problems* (Henry Holt, 1927) supplies the foundational analytical articulation of the public-as-formed-rather-than-given — the architectural commitment that the public is constituted through deliberative engagement with the consequences of joint action, with the implication that public-check institutions are themselves cultivation conditions of public formation rather than merely instruments of an already-formed public's will. James S. Fishkin's *When the People Speak: Deliberative Democracy and Public Consultation* (Oxford University Press, 2009) supplies the contemporary scholarly engagement with deliberative-poll architecture as scale-matched public-check apparatus. Archon Fung's *Empowered Participation: Reinventing Urban Democracy* (Princeton University Press, 2004) supplies the operational record on participatory governance at the ecosystem-and-habitat scale band the document specifies. The cluster's analytical commitment is that the public-check rights at this scale band operate not as derived institutional architecture instantiating a pre-given public, but as substantive constitutional commitments through which the public at this scale is cultivated under the broader biocultural-governance ontology.
+
 ---
 
 ## Thread B — E-Democracy as Immediate Public Check, Specified as Bounded Decision Right
@@ -141,6 +143,14 @@ The cultivation work proceeds.
 ---
 
 ## References
+
+### Foundational Deliberative-Public Substrate (Thread A)
+
+Dewey, John. *The Public and Its Problems*. New York: Henry Holt, 1927.
+
+Fishkin, James S. *When the People Speak: Deliberative Democracy and Public Consultation*. Oxford: Oxford University Press, 2009.
+
+Fung, Archon. *Empowered Participation: Reinventing Urban Democracy*. Princeton: Princeton University Press, 2004.
 
 ### Public-Trust Doctrine and Fiduciary Political Philosophy
 
