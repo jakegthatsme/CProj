@@ -306,7 +306,7 @@ def audit_bibliography(text: str):
     # detect bibliography by content shape (run of headings whose bodies are >50%
     # bibliography-pattern lines: "Author. *Title*. Publisher, Year." or "- Author, *Title*").
     refs_match = re.search(
-        r"^##\s+(?:references|bibliography|works cited)\b.*\Z",
+        r"^#{1,3}\s+(?:references|bibliography|works cited|comprehensive references)\b.*\Z",
         text, re.MULTILINE | re.DOTALL | re.IGNORECASE)
     if refs_match:
         refs_text = refs_match.group(0)
@@ -446,18 +446,32 @@ def audit_bibliography(text: str):
         # Smith and Mohawk too ambiguous (common surnames) — drop from auto-check
     ]
     tribal_warns = []
-    tribal_pattern = (r"\(\s*[A-Z][a-zA-Z\s]+"
+    tribal_pattern = (r"\(\s*[A-Za-zÀ-ÿ][a-zA-ZÀ-ÿ\s]+"
                       r"(?:Nation|Tribe|Sioux|Dene|Mohawk|Oyate|Pueblo|Anishinaabe|"
                       r"Potawatomi|Cherokee|Quechua|Yuchi|Aaniiih|Onondaga|Seneca|"
                       r"Yellowknives|Lower Brule|Sisseton|Ojibwe|Kanien|Haudenosaunee|"
-                      r"Cree|Inuit|Métis|Diné|Navajo|Maori|Ngāti|Aboriginal|First Nation)"
+                      r"Cree|Inuit|Métis|Diné|Navajo|Maori|Māori|Ngāti|Aboriginal|First Nation|"
+                      r"Nishnaabeg|Saagiig|Michi|Apalech|Clan|Citizen|Yunkaporta|Whyte|"
+                      r"Muscogee|Creek|Choctaw|Cheyenne|Lakota|Dakota|Comanche|"
+                      r"Aymara|Quichua|Mapuche|Salish|Hopi|Zuni|Apache|Tewa)"
                       r"[^)]*\)")
+    # False-positive contexts: surname in geographic name, book title, or compound proper noun
+    fp_contexts = {
+        "Grande": ["Rio Grande", "La Grande", "Grande Geste"],
+        "Smith": ["Adam Smith"],  # generic surname
+    }
     for surname, affiliations in indigenous_scholars:
-        # Find FIRST mention of surname in body
-        first_match = re.search(rf"\b{surname}\b", body_text)
+        # Find FIRST mention of surname in body, skipping false-positive contexts
+        first_match = None
+        for m in re.finditer(rf"\b{surname}\b", body_text):
+            ctx_window = body_text[max(0,m.start()-30):min(len(body_text), m.end()+30)]
+            if surname in fp_contexts and any(fp in ctx_window for fp in fp_contexts[surname]):
+                continue
+            first_match = m
+            break
         if not first_match: continue
         start = max(0, first_match.start()-20)
-        end = min(len(body_text), first_match.end()+120)
+        end = min(len(body_text), first_match.end()+150)
         window = body_text[start:end]
         if any(a in window for a in affiliations): continue
         if re.search(tribal_pattern, window): continue

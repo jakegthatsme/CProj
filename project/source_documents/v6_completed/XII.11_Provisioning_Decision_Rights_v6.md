@@ -174,6 +174,104 @@ United Nations Declaration on the Rights of Indigenous Peoples. United Nations, 
 
 Universal Declaration of Human Rights. United Nations, 1948.
 
+### Indigenous Land Sovereignty and the Land Back Tradition
+
+Coulthard, Glen Sean (Yellowknives Dene). *Red Skin, White Masks: Rejecting the Colonial Politics of Recognition*. Minneapolis: University of Minnesota Press, 2014.
+
+Grande, Sandy (Quechua). *Red Pedagogy: Native American Social and Political Thought*. Lanham: Rowman & Littlefield, 2004; second edition 2015.
+
+Kimmerer, Robin Wall (Citizen Potawatomi). *Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants*. Minneapolis: Milkweed Editions, 2013.
+
+LaDuke, Winona (Anishinaabe). *All Our Relations: Native Struggles for Land and Life*. Cambridge, MA: South End Press, 1999.
+
+NDN Collective. *Land Back movement documentation and policy materials*. NDN Collective, ongoing.
+
+Simpson, Audra (Mohawk). *Mohawk Interruptus: Political Life Across the Borders of Settler States*. Durham: Duke University Press, 2014.
+
+### Food Sovereignty and Agricultural Provisioning
+
+Barlow, Maude. *Blue Future: Protecting Water for People and the Planet Forever*. New York: New Press, 2014.
+
+Berry, Wendell. *The Unsettling of America: Culture and Agriculture*. San Francisco: Sierra Club Books, 1977.
+
+De Schutter, Olivier. *Reports of the United Nations Special Rapporteur on the Right to Food, 2008–2014*. UN Human Rights Council. Final report 2014.
+
+La Vía Campesina. *Nyéléni Declaration: Forum for Food Sovereignty*. Sélingué, Mali, 2007. *Six pillars of food sovereignty*.
+
+Shiva, Vandana. *Monocultures of the Mind: Perspectives on Biodiversity and Biotechnology*. London: Zed Books, 1993.
+
+Shiva, Vandana. *Stolen Harvest: The Hijacking of the Global Food Supply*. Cambridge, MA: South End Press, 2000.
+
+*Te Awa Tupua (Whanganui River Claims Settlement) Act 2017*. Parliament of New Zealand, 2017.
+
+### Energy Justice and Energy Architecture
+
+Bullard, Robert D. *Dumping in Dixie: Race, Class, and Environmental Quality*. Boulder: Westview Press, 1990; third edition 2000.
+
+Carley, Sanya, and David M. Konisky. *Selected analytical work on the politics of energy transition and energy justice operationalization*.
+
+Rural Electrification Act of 1936. United States Public Law 74-605. *7 U.S.C. § 901 et seq*.
+
+Schlosberg, David. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford: Oxford University Press, 2007.
+
+### Cradle-to-Cradle, Repair Rights, and Materials Provisioning
+
+Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal. United Nations, 1989. *Entered into force 1992*.
+
+Leonard, Annie. *The Story of Stuff: How Our Obsession with Stuff is Trashing the Planet, Our Communities, and Our Health — and a Vision for Change*. New York: Free Press, 2010.
+
+McDonough, William, and Michael Braungart. *Cradle to Cradle: Remaking the Way We Make Things*. New York: North Point Press, 2002.
+
+European Union Right to Repair Directive (Directive (EU) 2024/1799). *European Parliament and Council, June 13, 2024*.
+
+New York Digital Fair Repair Act of 2022. New York State, 2022.
+
+The Bayh-Dole Act of 1980. 35 U.S.C. § 200 et seq.
+
+The Repair Association and iFixit. *Right to Repair movement documentation*. Ongoing.
+
+Waste Framework Directive (Directive 2008/98/EC). *European Parliament and Council*, 2008.
+
+### Built Environment, Right-to-the-City, and Built-Environment Provisioning
+
+Davis, Mike. *Planet of Slums*. London: Verso, 2006.
+
+Harvey, David. *Rebel Cities: From the Right to the City to the Urban Revolution*. London: Verso, 2012.
+
+Jacobs, Jane. *The Death and Life of Great American Cities*. New York: Random House, 1961.
+
+Lefebvre, Henri. "The Right to the City." In *Writings on Cities*, edited and translated by Eleonore Kofman and Elizabeth Lebas. Oxford: Blackwell, 1996. Originally *Le droit à la ville*, 1968.
+
+United Nations Committee on Economic, Social and Cultural Rights. *General Comment No. 4: The Right to Adequate Housing*. 1991.
+
+United Nations Committee on Economic, Social and Cultural Rights. *General Comment No. 7: The Right to Adequate Housing: Forced Evictions*. 1997.
+
+### Health as Cultivation
+
+Farmer, Paul. *Pathologies of Power: Health, Human Rights, and the New War on the Poor*. Berkeley: University of California Press, 2003.
+
+Gone, Joseph P. (Aaniiih). Selected writings on Indigenous mental-health sovereignty and traditional-healing-as-evidence-based-practice, from "Mental Health Services for Native Americans in the 21st Century United States" (2008) forward.
+
+Marmot, Michael. *The Health Gap: The Challenge of an Unequal World*. London: Bloomsbury, 2015.
+
+Waitzkin, Howard, and Rebeca Jasso-Aguilar. *Selected analytical work on the Cuban primary-healthcare model*.
+
+World Health Organization Commission on Social Determinants of Health. *Closing the Gap in a Generation: Health Equity Through Action on the Social Determinants of Health*. WHO, 2008.
+
+### Care, Kinship, and Social Reproduction
+
+Chatzidakis, Andreas, Jamie Hakim, Jo Littler, Catherine Rottenberg, and Lynne Segal (The Care Collective). *The Care Manifesto: The Politics of Interdependence*. London: Verso, 2020.
+
+Federici, Silvia. *Caliban and the Witch: Women, the Body and Primitive Accumulation*. Brooklyn: Autonomedia, 2004.
+
+Fraser, Nancy. *Fortunes of Feminism: From State-Managed Capitalism to Neoliberal Crisis*. London: Verso, 2013.
+
+Mingus, Mia. *Leaving Evidence* corpus on access intimacy. Blog and writings, 2010–present.
+
+Sins Invalid. *Skin, Tooth, and Bone: The Basis of Movement is Our People — A Disability Justice Primer*. Second edition, 2019.
+
+Tronto, Joan C. *Moral Boundaries: A Political Argument for an Ethic of Care*. New York: Routledge, 1993.
+
 ### Reproductive Justice and the Material Conditions of Reproductive Autonomy
 
 Clare, Eli. *Brilliant Imperfection: Grappling with Cure*. Durham: Duke University Press, 2017.

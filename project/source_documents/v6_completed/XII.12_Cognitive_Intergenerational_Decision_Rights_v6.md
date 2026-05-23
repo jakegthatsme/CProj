@@ -64,7 +64,7 @@ Stephen M. Gardiner in *A Perfect Moral Storm: The Ethical Tragedy of Climate Ch
 
 Roman Krznaric in *The Good Ancestor: A Radical Prism for Long-Term Thinking* (The Experiment, 2020) supplies the contemporary scholarly engagement on long-term thinking as architectural-civilizational commitment, articulating six principles of long-term thinking (deep-time humility, legacy mindset, intergenerational justice, cathedral thinking, holistic forecasting, transcendent goal). The Long Time Project and the broader long-termist scholarly infrastructure supply contemporary operational engagement, though the analytical work is engaged critically — the long-termist tradition's substantive operational record has been mixed, with substantial debate within the tradition about how the criterion operates against immediate-justice obligations to currently-existing populations whose access has been substantially constrained.
 
-The Haudenosaunee seventh-generation criterion operates at primary-articulator standing as the most-developed primary articulation of intergenerational criterion as decision rule in continuous practice across centuries. Oren Lyons and colleagues, eds., *Exiled in the Land of the Free: Democracy, Indian Nations, and the U.S. Constitution* (Clear Light, 1992) and John Mohawk's *Utopian Legacies: A History of Conquest and Oppression in the Western World* (Clear Light, 2000) supply the primary-articulator analytical engagement. The seventh-generation criterion specifies that decisions are evaluated against their consequences for the seventh generation following the decision — a multi-century forward horizon (approximately 175 to 200 years) that exceeds any temporal horizon the contemporary American electoral-political architecture systematically engages. The criterion operates as decision rule at the moment of decision rather than as cultivation framing applied after the fact: the Haudenosaunee Grand Council's deliberative architecture specifies that proposed decisions are evaluated against the seventh-generation consequence at the moment of deliberation, with the criterion operating as substantive analytical filter on which decisions can pass the deliberative threshold.
+The Haudenosaunee seventh-generation criterion operates at primary-articulator standing as the most-developed primary articulation of intergenerational criterion as decision rule in continuous practice across centuries. Oren Lyons (Onondaga) and colleagues, eds., *Exiled in the Land of the Free: Democracy, Indian Nations, and the U.S. Constitution* (Clear Light, 1992) and John Mohawk's (Seneca) *Utopian Legacies: A History of Conquest and Oppression in the Western World* (Clear Light, 2000) supply the primary-articulator analytical engagement. The seventh-generation criterion specifies that decisions are evaluated against their consequences for the seventh generation following the decision — a multi-century forward horizon (approximately 175 to 200 years) that exceeds any temporal horizon the contemporary American electoral-political architecture systematically engages. The criterion operates as decision rule at the moment of decision rather than as cultivation framing applied after the fact: the Haudenosaunee Grand Council's deliberative architecture specifies that proposed decisions are evaluated against the seventh-generation consequence at the moment of deliberation, with the criterion operating as substantive analytical filter on which decisions can pass the deliberative threshold.
 
 The Welsh Future Generations Commissioner architecture, codified in the Well-being of Future Generations (Wales) Act 2015 and operationalized through the Office of the Future Generations Commissioner for Wales (Sophie Howe, the first Commissioner, served from 2016 to 2023; Derek Walker succeeded her from 2023), supplies the contemporary comparative empirical instance of the criterion's operation as decision rule. The Act specifies seven well-being goals (a prosperous Wales, a resilient Wales, a healthier Wales, a more equal Wales, a Wales of cohesive communities, a Wales of vibrant culture and thriving Welsh language, a globally responsible Wales) against which public-body decisions are evaluated. The Commissioner's annual reports and Future Generations Reports (the 2020 *Future Generations Report* supplies substantial analytical engagement) articulate the operational record on how the criterion has operated as decision rule across Welsh public-body decision-making. The architectural implication is that the criterion can operate as decision rule in contemporary constitutional architecture, with the Welsh record supplying empirical engagement on what operates and what fails.
 
@@ -130,7 +130,7 @@ Susan Stryker's *Transgender History* (Seal Press, 2008) carries the foundationa
 
 Eli Clare's *Brilliant Imperfection: Grappling with Cure* (Duke University Press, 2017) carries the analytical work into the body-mind and into the intersection of disability and queerness at the organism scale. Clare's analytical work specifies that the body-mind operates at organism scale as integrated configuration that the dominant medical-and-administrative apparatus has substantially failed to recognize, with the disability-queer-intersectional analytical work articulating the content of body-mind cultivation at organism scale. The architectural implication for the organism-scale decision right is that the right operates at the body-mind register rather than at the body-or-mind-separately register, with the disability-justice and queer-liberation traditions operating in coupling at primary-articulator standing. Clare's analytical work also articulates the cure framework as architectural commitment — the medical-and-cultural commitment to cure as principal disposition toward disability and toward bodily-and-mental configurations exceeding the heteropatriarchal-able-bodied-neurotypical baseline — and positions the cure framework as itself subject to architectural critique. The implication for the organism-scale decision right is that the right operates under the cultivation-discipline framing the project's broader architecture articulates rather than under the cure-framework framing the dominant medical-and-administrative apparatus operates within.
 
-Kim TallBear (Sisseton Wahpeton Oyate) on Indigenous gender beyond settler heteropatriarchy operates at primary-articulator standing for the organism-scale decision right. TallBear's analytical work specifies that the settler-heteropatriarchal gender categorization the dominant American constitutional architecture has presupposed operates as architectural commitment that the Indigenous-gender traditions exceed at multiple registers — kinship configurations exceeding the nuclear-family-and-heteropatriarchal-couple configuration, gender configurations exceeding the male-female binary, sexuality configurations exceeding the compulsory-heterosexuality baseline. The implication for the organism-scale decision right is that the right must be specified at primary-articulator standing for the Indigenous-gender traditions rather than under the settler-heteropatriarchal categorization that the analytical work identifies as exclusion. The Two-Spirit literature engaged through Qwo-Li Driskill, Chris Finley, Brian Joseph Gilley, and Scott Lauria Morgensen, eds., *Sovereign Erotics: A Collection of Two-Spirit Literature* (University of Arizona Press, 2011), operates at primary-articulator standing for the Two-Spirit gender configurations that the settler-heteropatriarchal categorization has failed to recognize.
+Kim TallBear (Sisseton Wahpeton Oyate) on Indigenous gender beyond settler heteropatriarchy operates at primary-articulator standing for the organism-scale decision right. TallBear's analytical work specifies that the settler-heteropatriarchal gender categorization the dominant American constitutional architecture has presupposed operates as architectural commitment that the Indigenous-gender traditions exceed at multiple registers — kinship configurations exceeding the nuclear-family-and-heteropatriarchal-couple configuration, gender configurations exceeding the male-female binary, sexuality configurations exceeding the compulsory-heterosexuality baseline. The implication for the organism-scale decision right is that the right must be specified at primary-articulator standing for the Indigenous-gender traditions rather than under the settler-heteropatriarchal categorization that the analytical work identifies as exclusion. The Two-Spirit literature engaged through Qwo-Li Driskill (Cherokee), Chris Finley, Brian Joseph Gilley, and Scott Lauria Morgensen, eds., *Sovereign Erotics: A Collection of Two-Spirit Literature* (University of Arizona Press, 2011), operates at primary-articulator standing for the Two-Spirit gender configurations that the settler-heteropatriarchal categorization has failed to recognize.
 
 The neuroqueer articulation — the intersection of neurodivergence and queerness at organism scale — operates as primary content of the sixth-pass thread at intersection with Thread B. The neuroqueer analytical tradition articulates that neurodivergence and queer embodiment operate in coupling at organism scale, with the cognitive substrate and the embodied-gender-and-sexuality substrate operating as integrated configuration rather than as separable architectural commitments. The implication for the organism-scale decision rights is that the rights specified across Threads B and E operate in coupling rather than as separable commitments — the cognitive-plurality cultivation conditions of Thread B and the gender-and-sexuality decision rights of Thread E couple at organism scale through the neuroqueer articulation, with the cultivation-discipline framing operating across the coupled architecture.
 
@@ -164,15 +164,111 @@ The cultivation work proceeds.
 
 ## References
 
-### Neurodivergent-Polis Substrate
+### Neurodivergent-Polis Substrate (Disability Justice, Mad Studies, Neurodivergent Self-Articulation, Eastern and Indigenous Primary Articulators)
 
-Selected disability-justice, Mad-studies, neurodivergent, and Eastern and Indigenous primary-articulator works engaged through Document XII.05 (Neurodivergent Polis), as cross-referenced.
+Autistic Self Advocacy Network (ASAN). *Policy and self-advocacy documentation*. Founded by Ari Ne'eman, 2006.
 
-### Intergenerational and Multi-Lens Substrate
+Brown, Lydia X. Z., E. Ashkenazy, and Morénike Giwa Onaiwu. *Disability Justice: An Audit Tool*. National Black Disability Coalition, 2020. *With the Autistic Hoya corpus*.
 
-Selected intergenerational, multi-lens, and constitutional-architectural works engaged through Document XII.04 (Intergenerational Rectification), Document VII.01 (Multi-Eyed Seeing Constitutional Method), Document IV.01 (Deep Substrate), Document II.06 (Cognitive-Informational Disturbance Diagnostic), and the broader cross-referenced documents.
+Deegan, Patricia E. "Recovery: The Lived Experience of Rehabilitation." *Psychosocial Rehabilitation Journal* 11, no. 4 (1988): 11–19. *And subsequent corpus on Mad-experiences-as-knowledge*.
 
-Well-being of Future Generations (Wales) Act 2015. Welsh Government.
+Hearing Voices Network. *Institutional documentation*. Founded by Marius Romme and Sandra Escher, 1987.
+
+LeFrançois, Brenda A., Robert J. Menzies, and Geoffrey Reaume, eds. *Mad Matters: A Critical Reader in Canadian Mad Studies*. Toronto: Canadian Scholars' Press, 2013.
+
+Mingus, Mia. *Leaving Evidence* corpus on access intimacy. Blog and writings, 2010–present. *Including the 2011 articulation of access intimacy*.
+
+Silberman, Steve. *NeuroTribes: The Legacy of Autism and the Future of Neurodiversity*. New York: Avery, 2015.
+
+Singer, Judy. *NeuroDiversity: The Birth of an Idea*. Self-published, 2017. *Originally honors thesis, University of Technology Sydney, 1998*.
+
+Sins Invalid. *Skin, Tooth, and Bone: The Basis of Movement is Our People — A Disability Justice Primer*. Second edition, 2019. *Co-founded by Patricia Berne*.
+
+Smith, Linda Tuhiwai (Ngāti Awa, Ngāti Porou). *Decolonizing Methodologies: Research and Indigenous Peoples*. London: Zed Books, 1999; second edition 2012.
+
+Varela, Francisco J., Evan Thompson, and Eleanor Rosch. *The Embodied Mind: Cognitive Science and Human Experience*. Cambridge, MA: MIT Press, 1991.
+
+Whitaker, Robert. *Anatomy of an Epidemic: Magic Bullets, Psychiatric Drugs, and the Astonishing Rise of Mental Illness in America*. New York: Crown, 2010.
+
+Ziporyn, Brook, trans. *Zhuangzi: The Complete Writings*. Indianapolis: Hackett, 2020.
+
+### Intergenerational Equity and the Decision-Rule Tradition
+
+Brown Weiss, Edith. *In Fairness to Future Generations: International Law, Common Patrimony, and Intergenerational Equity*. Dobbs Ferry, NY: Transnational Publishers; United Nations University, 1989.
+
+Gardiner, Stephen M. *A Perfect Moral Storm: The Ethical Tragedy of Climate Change*. Oxford: Oxford University Press, 2011.
+
+Krznaric, Roman. *The Good Ancestor: A Radical Prism for Long-Term Thinking*. New York: The Experiment, 2020.
+
+Lyons, Oren (Onondaga), et al., eds. *Exiled in the Land of the Free: Democracy, Indian Nations, and the U.S. Constitution*. Santa Fe: Clear Light Publishers, 1992.
+
+Mohawk, John (Seneca). *Utopian Legacies: A History of Conquest and Oppression in the Western World*. Santa Fe: Clear Light Publishers, 2000.
+
+Well-being of Future Generations (Wales) Act 2015. *Welsh Government*, 2015 anaw 2. *Office of the Future Generations Commissioner for Wales: Sophie Howe (2016–2023), Derek Walker (2023–)*.
+
+### Cross-Civilizational Temporal Traditions
+
+de la Cadena, Marisol. *Earth Beings: Ecologies of Practice across Andean Worlds*. Durham: Duke University Press, 2015.
+
+Rose, Deborah Bird. *Nourishing Terrains: Australian Aboriginal Views of Landscape and Wilderness*. Canberra: Australian Heritage Commission, 1996.
+
+Waters, Frank. *Book of the Hopi*. New York: Viking, 1963.
+
+### Multi-Lens Constitutional Architecture and the Limits of the Three-Branches Default
+
+Ackerman, Bruce. *The Decline and Fall of the American Republic*. Cambridge, MA: Harvard University Press, 2010.
+
+Balkin, Jack M. *Living Originalism*. Cambridge, MA: Harvard University Press, 2011.
+
+Levinson, Sanford. *Our Undemocratic Constitution: Where the Constitution Goes Wrong (and How We the People Can Correct It)*. New York: Oxford University Press, 2006.
+
+*The Federalist No. 51*. James Madison, February 8, 1788.
+
+### Standpoint Epistemology, Situated Knowledges, and Intersectionality
+
+Crenshaw, Kimberlé. "Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics." *University of Chicago Legal Forum* 1989, no. 1 (1989): 139–167.
+
+Crenshaw, Kimberlé. "Mapping the Margins: Intersectionality, Identity Politics, and Violence Against Women of Color." *Stanford Law Review* 43, no. 6 (1991): 1241–1299.
+
+Haraway, Donna J. "Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective." *Feminist Studies* 14, no. 3 (1988): 575–599.
+
+Harding, Sandra. *Whose Science? Whose Knowledge? Thinking from Women's Lives*. Ithaca: Cornell University Press, 1991.
+
+### Justice Lens — Multi-Traditional Articulators
+
+Mills, Charles W. *The Racial Contract*. Ithaca: Cornell University Press, 1997.
+
+Nussbaum, Martha C. *Frontiers of Justice: Disability, Nationality, Species Membership*. Cambridge, MA: Harvard University Press, 2006.
+
+Rawls, John. *A Theory of Justice*. Cambridge, MA: Harvard University Press, 1971.
+
+Sen, Amartya. *The Idea of Justice*. Cambridge, MA: Harvard University Press, 2009.
+
+Young, Iris Marion. *Justice and the Politics of Difference*. Princeton: Princeton University Press, 1990.
+
+### Ecological, Anthropological, Political, and Economic Lenses
+
+Bartels, Larry M. *Unequal Democracy: The Political Economy of the New Gilded Age*. Princeton: Princeton University Press, 2008; second edition 2016.
+
+Gilens, Martin. *Affluence and Influence: Economic Inequality and Political Power in America*. Princeton: Princeton University Press, 2012.
+
+Graeber, David, and David Wengrow. *The Dawn of Everything: A New History of Humanity*. New York: Farrar, Straus and Giroux, 2021.
+
+Kelton, Stephanie. *The Deficit Myth: Modern Monetary Theory and the Birth of the People's Economy*. New York: PublicAffairs, 2020.
+
+Latour, Bruno. *Politics of Nature: How to Bring the Sciences into Democracy*. Translated by Catherine Porter. Cambridge, MA: Harvard University Press, 2004.
+
+Mayer, Jane. *Dark Money: The Hidden History of the Billionaires Behind the Rise of the Radical Right*. New York: Doubleday, 2016.
+
+Mazzucato, Mariana. *The Entrepreneurial State: Debunking Public vs. Private Sector Myths*. London: Anthem Press, 2013.
+
+Robbins, Paul. *Political Ecology: A Critical Introduction*. Wiley-Blackwell, 2004; second edition 2012.
+
+Scott, James C. *Against the Grain: A Deep History of the Earliest States*. New Haven: Yale University Press, 2017.
+
+### Epistemic Lens — Multi-Eyed Seeing and Two-Eyed Seeing
+
+Marshall, Albert (Mi'kmaq Elder). *Two-Eyed Seeing (Etuaptmumk) framework*. Oral tradition and mediated writings.
 
 ### Gender and Sexuality at Organism Scale
 
