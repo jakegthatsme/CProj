@@ -1874,14 +1874,16 @@ The cross-reference to the broader fifth-pass arc is direct. Document III.01 (Pa
 
 ---
 
-## Primary Sources
+## References
+
+### Primary Sources
 
 - Storing, Herbert J., ed. *The Complete Anti-Federalist*. 7 vols. University of Chicago Press, 1981.
 - Storing, Herbert J. *What the Anti-Federalists Were For*. University of Chicago Press, 1981.
 - Kenyon, Cecelia, ed. *The Antifederalists*. Bobbs-Merrill, 1966.
 - Elliot, Jonathan, ed. *The Debates in the Several State Conventions on the Adoption of the Federal Constitution*. 5 vols. 1836–1845.
 
-## Secondary Sources
+### Secondary Sources
 
 - Cornell, Saul. *The Other Founders: Anti-Federalism and the Dissenting Tradition in America, 1788–1828*. University of North Carolina Press, 1999.
 - Main, Jackson Turner. *The Antifederalists: Critics of the Constitution, 1781–1788*. University of North Carolina Press, 1961.
@@ -1891,7 +1893,7 @@ The cross-reference to the broader fifth-pass arc is direct. Document III.01 (Pa
 - Rakove, Jack. *Original Meanings: Politics and Ideas in the Making of the Constitution*. Knopf, 1996.
 - Maier, Pauline. *Ratification: The People Debate the Constitution, 1787–1788*. Simon & Schuster, 2010.
 
-## Fifth-Pass Additions — Anti-Federalist Scholarship and Republican-Tradition Sources
+### Anti-Federalist Scholarship and Republican-Tradition Sources
 
 The fifth-pass edits propagated in this document draw on the following sources, several already cited in the existing references above and listed here together for the edits' integrated bibliography. New citations the edits introduce are marked with an asterisk.
 
@@ -1907,7 +1909,7 @@ The fifth-pass edits propagated in this document draw on the following sources, 
 - Wood, Gordon S. *The Creation of the American Republic, 1776–1787*. University of North Carolina Press, 1969.
 - Wood, Gordon S. *The Radicalism of the American Revolution*. Knopf, 1991.*
 
-## Fifth-Pass Additions — Biocultural-Governance Scholarly Grounding
+### Biocultural-Governance Scholarly Grounding
 
 The fifth-pass framing draws on the biocultural-diversity and biocultural-rights literatures as scholarly grounding for the load-bearing triad named in the opening framing. These sources are bibliographic references for the framing only; they are engaged at full analytical depth in Document III.01 (Part III) of the arc.
 
@@ -2032,4 +2034,29 @@ The fifth-pass framing does not endorse either eighteenth-century articulation i
 The downstream cross-references are direct. Document I.04 (Part I) takes up the founders' own post-ratification hindsight, extending the Hamilton-Madison split analysis above with the direct correspondence of Jefferson, Madison, Washington, Adams, and Hamilton on the implementation's drift in the first three decades. Document III.01 (Part III) articulates biocultural governance as constitutional ontology and specifies the nested-scales reference frame the Anti-Federalist scale-and-locality intuitions anticipate. Document V.01 (Part V) integrates the complex-adaptive-systems, emergence, disturbance-ecology, and adaptive-governance canons as the analytical substrate through which the eighteenth-century scale-matching and cultivation-condition intuitions are operationalized at the fifth-pass framing's analytical depth. Document IV.01 (Part IV) reads the deep substrate — multilevel selection, hunter-gatherer cognition, cultural evolution, comparative anthropology of governance — as the empirical archive against which the eighteenth-century articulations of cultivation and scale are read. Document XII.01 (Part XII) articulates eco-mimetic policy-making as the operational method through which scale-matched, feedback-conditioned, sunset-or-adaptation-conditioned decision rights are drafted and reviewed. Documents XII.09 through XII.12 (Part XII) specify the twelve structural commitments as bounded decision rights at biological-referent scales. Document XIII.01 (Part XIII) integrates the foundational normative commitments of Document I.02, the diagnostic findings of Part II, the substantive analytical commitments of Parts III through XII, and the eighteenth-century scale-matching and cultivation-condition intuitions recovered in this document, into the cultivation-protocol architecture the fifth-pass framing proposes as the constitutional architecture adequate to the disturbance landscape the fifth-pass framing diagnoses. The Federalist–Anti-Federalist record is not the foundational text the project's constitutional architecture answers to; the foundational normative inheritance of Document I.02 is. The Federalist–Anti-Federalist record is the eighteenth-century articulation of partial truths the fifth-pass framing recovers and integrates with the multi-traditional foundational inheritance and the analytical resources the eighteenth century did not possess.
 
 The sixth-pass architecture extends the arc within which this reading sits. Seven new Part-level documents join it — Document II.09 on climate displacement and belonging; Documents VI.01, VI.06, and VI.07 on land relations and property, on health, and on care, kinship, and social reproduction; and Documents XII.06, XII.07, and XII.08 on pedagogy, on harm response and accountability and repair, and on labor — each closing a coverage gap the foundational normative inheritance implies but the 1787 implementation left without a Part-level home. Five cross-cutting threads — sexuality, gender, and reproduction; communications, media, and the press; technology and artificial intelligence; arts, language, and cultural production; and defense and war powers — are woven through the arc at the scales where each aspect operates. The defense-and-war-powers thread bears directly on the Federalist record this document reads: the war-power allocation argued in *Federalist* Nos. 69 and 74 is the eighteenth-century articulation that thread carries forward into the bounded-decision-rights documents XII.09 and XII.10. Comparison gestures for all five threads are gathered in the capstone, Document XIV.01.
+
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+*Commentaries on the Constitution*. , 1833.
+
+*Two Treatises of Government*. , 1689.
+
+*The Spirit of the Laws*. , 1748.
+
+*Essays, Moral, Political, and Literary*. –42, 1741.
+
+*Commentaries on the Laws of England*. –69, 1765.
+
+*Marbury v. Madison*. , 1803.
+
+*McCulloch v. Maryland*. , 1819.
+
+*Gibbons v. Ogden*. , 1824.
+
+Robert Yate. *Brutus I*. October 18, 1787.
+
+George Mason. *Objections to the Constitution*. October, 1787.
+
+Luther Martin. *Genuine Information*. –88, 1787.
 

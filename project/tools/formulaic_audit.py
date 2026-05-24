@@ -345,7 +345,10 @@ def audit_bibliography(text: str):
     for m in re.finditer(
         r"\b([A-Z][\w\-]*(?:\s+[A-Z][\w\-]*){0,8}\s+Act)\s*(?:of\s+|\(|,\s+)?((?:1[6-9]|20)\d{2})",
         body_text):
-        body_citations.add(("act", m.group(1).lower()[:80], m.group(2)))
+        name = m.group(1).lower()
+        # Strip leading "the " for normalization
+        if name.startswith("the "): name = name[4:]
+        body_citations.add(("act", name[:80], m.group(2)))
     for m in re.finditer(
         r"\b([A-Z][\w\-]*(?:\s+[A-Z][\w\-]*){0,8}\s+"
         r"(?:Convention|Treaty|Declaration|Covenant|Protocol|Directive|Charter))"
@@ -371,6 +374,12 @@ def audit_bibliography(text: str):
 
     refs_normalized = " || ".join(l.lower() for l in refs_lines)
 
+    # Normalize text for diacritic-insensitive matching
+    import unicodedata
+    def strip_diacritics(s):
+        return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
+    refs_normalized_ascii = strip_diacritics(refs_normalized)
+
     # Check orphan inline citations (tolerant title-matching, with token-overlap fallback)
     STOPWORDS = {"about", "after", "again", "against", "every", "great", "their",
                  "there", "these", "thing", "world", "which", "where", "would",
@@ -394,6 +403,11 @@ def audit_bibliography(text: str):
         found = False
         for c in candidates:
             if c in refs_normalized:
+                found = True
+                break
+            # Diacritic-insensitive match
+            c_ascii = strip_diacritics(c)
+            if c_ascii != c and c_ascii in refs_normalized_ascii:
                 found = True
                 break
         if found:

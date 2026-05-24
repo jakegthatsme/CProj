@@ -332,3 +332,17 @@ Move to Amend. Public documentation. Founded 2009. https://movetoamend.org.
 American Promise. Public documentation. Founded 2016. https://americanpromise.net.
 
 Free Speech for People. Public documentation. Founded 2010. https://freespeechforpeople.org.
+
+Federal Election Campaign Act of 1971. United States Public Law 92-225, as amended by the 1974 amendments (Public Law 93-443).
+
+Bipartisan Campaign Reform Act of 2002 (McCain–Feingold Act). United States Public Law 107-155.
+
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+Sins Invalid. *Skin, Tooth, and Bone*. 2016.
+
+Author. *The Wealth of Networks: How Social Production Transforms Markets and Freedom*. Yale University Press, 2006.
+
+
+Digital Services Act. Regulation (EU) 2022/2065 of the European Parliament and of the Council, 2022.

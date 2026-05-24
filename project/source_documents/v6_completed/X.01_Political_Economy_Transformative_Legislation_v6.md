@@ -753,3 +753,59 @@ Inflation Reduction Act of 2022, Pub. L. No. 117-169, 136 Stat. 1818.
 Erneuerbare-Energien-Gesetz (Renewable Energy Sources Act), Germany (2000, with subsequent amendments).
 
 European Climate Law, Regulation (EU) 2021/1119.
+
+### United States Statutes Referenced
+
+Pure Food and Drug Act of 1906. United States Public Law 59-384.
+
+Federal Reserve Act of 1913. United States Public Law 63-43.
+
+Sherman Antitrust Act of 1890. United States Public Law 51-647.
+
+Agricultural Adjustment Act of 1933. United States Public Law 73-10.
+
+National Industrial Recovery Act of 1933. United States Public Law 73-67.
+
+Federal Emergency Relief Act of 1933. United States Public Law 73-15.
+
+Civilian Conservation Corps Act of 1933. United States Public Law 73-5.
+
+Public Utility Holding Company Act of 1935. United States Public Law 74-333.
+
+Soil Conservation and Domestic Allotment Act of 1936. United States Public Law 74-461.
+
+Emergency Banking Act of 1933. United States Public Law 73-1.
+
+National Labor Relations Act of 1935 (Wagner Act). United States Public Law 74-198.
+
+Tennessee Valley Authority Act of 1933. United States Public Law 73-17.
+
+Voting Rights Act of 1965. United States Public Law 89-110.
+
+Marine Mammal Protection Act of 1972. United States Public Law 92-522.
+
+Safe Drinking Water Act of 1974. United States Public Law 93-523.
+
+Federal Land Policy and Management Act of 1976. United States Public Law 94-579.
+
+National Forest Management Act of 1976. United States Public Law 94-588.
+
+Resource Conservation and Recovery Act of 1976. United States Public Law 94-580.
+
+Clean Air Act of 1970. United States Public Law 91-604.
+
+Endangered Species Act of 1973. United States Public Law 93-205.
+
+Elementary and Secondary Education Act of 1965. United States Public Law 89-10.
+
+Higher Education Act of 1965. United States Public Law 89-329.
+
+Older Americans Act of 1965. United States Public Law 89-73.
+
+Public Broadcasting Act of 1967. United States Public Law 90-129.
+
+No Child Left Behind Act of 2001. United States Public Law 107-110.
+
+Every Student Succeeds Act of 2015. United States Public Law 114-95.
+
+Inflation Reduction Act of 2022. United States Public Law 117-169.

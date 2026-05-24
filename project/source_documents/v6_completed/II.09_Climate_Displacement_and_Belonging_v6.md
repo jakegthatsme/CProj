@@ -335,3 +335,16 @@ Document XII.10 — *Public-Check Decision Rights*. Sixth-pass constitutional pr
 Document XIII.01 — *Decision-Rights Synthesis*. Sixth-pass constitutional project, Part XIII.
 
 Document XIV.01 — *Capstone Synthesis*. Sixth-pass constitutional project, Part XIV.
+
+Chinese Exclusion Act of 1882. United States 22 Stat. 58 (May 6, 1882).
+
+Immigration Act of 1924 (National Origins Act / Johnson–Reed Act). United States Public Law 68-139.
+
+Immigration and Nationality Act of 1952 (McCarran–Walter Act). United States Public Law 82-414.
+
+Immigration and Nationality Act of 1965 (Hart–Celler Act). United States Public Law 89-236.
+
+Immigration Reform and Control Act of 1986. United States Public Law 99-603.
+
+Illegal Immigration Reform and Immigrant Responsibility Act of 1996. United States Public Law 104-208.
+

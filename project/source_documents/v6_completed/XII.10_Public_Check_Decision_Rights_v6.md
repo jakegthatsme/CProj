@@ -239,3 +239,11 @@ Document XII.12 — Cognitive-Intergenerational Decision Rights.
 Document XIII.01 — Decision Rights Synthesis.
 
 Document XIV.01 — Capstone Synthesis.
+
+*Illinois Central Railroad Company v. Illinois*, 146 U.S. 387 (United States Supreme Court, 1892).
+
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+Author. *Illinois Central Railroad v. Illinois*. 146 U.S. 387, 1892.
+

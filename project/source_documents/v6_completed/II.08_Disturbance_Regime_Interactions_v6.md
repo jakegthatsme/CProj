@@ -501,3 +501,8 @@ hooks, bell. *Teaching to Transgress: Education as the Practice of Freedom*. New
 Mingus, Mia. "Access Intimacy, Interdependence and Disability Justice." *Leaving Evidence* (blog), April 12, 2017. https://leavingevidence.wordpress.com.
 
 Tooze, Adam. *Chartbook* (essays on polycrisis and contemporary political economy, 2020–present). https://adamtooze.substack.com.
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+The World Economic Forum. *Global Risks Reports*. published annually from  through the present, 2006.
+

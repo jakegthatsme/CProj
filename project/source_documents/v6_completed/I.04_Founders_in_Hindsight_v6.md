@@ -626,7 +626,7 @@ The Constitution has been formally amended only twenty-seven times — the last 
 
 ---
 
-### Key Works Referenced in This Document
+### References — Key Works Cited in This Document
 
 **Anti-Federalists:**
 - Storing, Herbert. *The Complete Anti-Federalist* (7 vols., 1981) and *What the Anti-Federalists Were For* (1981)
@@ -765,7 +765,7 @@ The sixth-pass architecture extends the arc this document sits within. Seven new
 
 ---
 
-### Key Works Referenced in This Document
+### References — Key Works Cited in This Document
 
 **Anti-Federalists:**
 - Storing, Herbert. *The Complete Anti-Federalist* (7 vols., 1981) and *What the Anti-Federalists Were For* (1981)
@@ -845,3 +845,52 @@ The sixth-pass architecture extends the arc this document sits within. Seven new
 - Spahn, Hannah. *Thomas Jefferson, Time, and History* (University of Virginia Press, 2011). https://www.amazon.com/s?k=Hannah+Spahn+Jefferson+Time+History
 - Wallace, Anthony F. C. *Jefferson and the Indians: The Tragic Fate of the First Americans* (Belknap Press of Harvard University Press, 1999). https://www.amazon.com/s?k=Anthony+Wallace+Jefferson+and+the+Indians
 - Wood, Gordon S. *Empire of Liberty: A History of the Early Republic, 1789–1815* (Oxford University Press, 2009). https://www.amazon.com/s?k=Gordon+Wood+Empire+of+Liberty
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+Independence. Hi. *Letters from the Federal Farmer*. –88, 1787.
+
+*A Preface to Democratic Theory*. , 1956.
+
+*Centinel No. 1*. October, 1787.
+
+*Genuine Information*. , 1788.
+
+The. *Marbury v. Madison*. 1803.
+
+*Report on a National Bank*. December, 1790.
+
+*McCulloch v. Maryland*. , 1819.
+
+*McCulloch*. , 1819.
+
+*Schechter Poultry Corp. v. United States*. , 1935.
+
+*Gundy v. United States*. , 2019.
+
+*West Virginia v. EPA*. , 2022.
+
+*Seila Law v. CFPB*. , 2020.
+
+*Collins v. Yellen*. , 2021.
+
+*Chevron U.S.A. Inc. v. Natural Resources Defense Council*. , 1984.
+
+*Loper Bright Enterprises v. Raimondo*. , 2024.
+
+*Morrison v. Olson*. , 1988.
+
+*Report on Manufactures*. , 1791.
+
+In. *Notes on the State of Virginia*. 1785.
+
+
+Embargo Act of 1807. United States Public Law 9-5.
+
+Madison, James. *Memorial and Remonstrance Against Religious Assessments*. 1785.
+
+Madison, James. "Advice to My Country." 1834.
+
+Pendleton Civil Service Reform Act of 1883. United States Public Law 47-27.
+
+Koch, Adrienne, and Harry Ammon. "The Virginia and Kentucky Resolutions: An Episode in Jefferson's and Madison's Defense of Civil Liberties." *William and Mary Quarterly* 5, no. 2 (1948): 145–176.

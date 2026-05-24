@@ -218,3 +218,6 @@ Wiredu, Kwasi. *Cultural Universals and Particulars: An African Perspective*. Bl
 Yunkaporta, Tyson. *Sand Talk: How Indigenous Thinking Can Save the World*. New York: HarperOne, 2019.
 
 Zhuangzi. *Zhuangzi: The Essential Writings*. Translated by Brook Ziporyn. Indianapolis: Hackett, 2009.
+
+Well-being of Future Generations (Wales) Act 2015. Welsh Government, 2015 anaw 2.
+

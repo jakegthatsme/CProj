@@ -167,3 +167,8 @@ Lakoff, Andrew. *Unprepared: Global Health in a Time of Emergency*. University o
 Petryna, Adriana. *Scholarship on pharmaceutical clinical trials and the political economy of evidence*.
 
 Roberts, Dorothy. *Fatal Invention: How Science, Politics, and Big Business Re-create Race in the Twenty-first Century*. The New Press, 2011.
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+The Lancet Commission. *COVID-19 Commission Report*. 2022.
+

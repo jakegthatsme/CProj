@@ -928,3 +928,160 @@ Yunkaporta, Tyson. *Sand Talk: How Indigenous Thinking Can Save the World*. New 
 
 Zhuangzi. *Zhuangzi: The Essential Writings, with Selections from Traditional Commentaries*. Translated by Brook Ziporyn. Indianapolis: Hackett, 2009.
 
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+John Locke. *Two Treatises of Government*. 1689.
+
+Algernon Sidney. *Discourses Concerning Government*. 1698.
+
+Caroline Robbin. *The Eighteenth-Century Commonwealthman*. 1959.
+
+Stanton. *Eighty Years and More*. 1898.
+
+Sally McMillen. *Seneca Falls and the Origins of the Women's Rights Movement*. 2008.
+
+*Report on Manufactures*. , 1791.
+
+*Report on the Public Credit*. , 1790.
+
+Drew McCoy. *The Elusive Republic*. 1980.
+
+*The Last of the Fathers*. , 1989.
+
+Joyce Appleby. *Capitalism and a New Social Order*. 1984.
+
+*Iroquois on Fire*. , 2006.
+
+Theda Perdue. *The Cherokee Nation and the Trail of Tears*. with Michael Green, 2007.
+
+Theda Perdue. *Cherokee Women: Gender and Culture Change, 1700–1835*. 1998.
+
+*Cherokee Nation v. Georgia*. , 1831.
+
+*Worcester v. Georgia*. , 1832.
+
+*Treaty of Waitangi Settlements*. co-edited with Nicola Wheen, 2011.
+
+*A Short History of the Blockade*. , 2021.
+
+*Studies in Arabian History and Civilization*. , 1981.
+
+Khaled Abou El Fadl. *Speaking in God's Name: Islamic Law, Authority and Women*. 2001.
+
+*The Great Theft: Wrestling Islam from the Extremists*. , 2005.
+
+Bahru Zewde. *A History of Modern Ethiopia, 1855–1991*. 2001.
+
+*Religion and Art in Ashanti*. , 1927.
+
+*I Speak of Freedom*. , 1961.
+
+*Philosophy and an African Culture*. , 1980.
+
+*Tradition and Modernity: Philosophical Reflections on the African Experience*. , 1997.
+
+*Africa Discovers Her Past*. edited collection, 1970.
+
+Ivor Wilk. *Asante in the Nineteenth Century: The Structure and Evolution of a Political Order*. 1975.
+
+*Asante Identities: History and Modernity in an African Village*. , 2000.
+
+Frans Viljoen. *International Human Rights Law in Africa*. revised 2012, 2007.
+
+Eric Hutton. *Xunzi: The Complete Text*. 2014.
+
+*Centrality and Commonality: An Essay on Confucian Religiousness*. , 1989.
+
+*Nobility and Civility: Asian Ideals of Leadership and the Common Good*. , 2004.
+
+David Hall. *Thinking Through Confucius*. 1987.
+
+*Thinking from the Han: Self, Truth, and Transcendence in Chinese and Western Culture*. , 1998.
+
+*Focusing the Familiar: A Translation and Philosophical Interpretation of the Zhongyong*. , 2001.
+
+Thich Nhat Hanh. *Being Peace*. 1987.
+
+Sulak Sivaraksa. *Seeds of Peace: A Buddhist Vision for Renewing Society*. 1992.
+
+Joanna Macy. *World as Lover, World as Self*. 1991.
+
+*Engaged Buddhism: Buddhist Liberation Movements in Asia*. , 1996.
+
+*Money, Sex, War, Karma: Notes for a Buddhist Revolution*. , 2008.
+
+*The Character of Logic in India*. , 1998.
+
+Cary Bayne. *The I Ching, or Book of Changes*. 1950.
+
+Hellmut Wilhelm. *Heaven, Earth, and Man in the Book of Changes*. 1977.
+
+Edward Shaughnessy. *I Ching: The Classic of Changes*. 1996.
+
+*Reasoning with God: Reclaiming Shari'ah in the Modern Age*. , 2014.
+
+Jonathan Brown. *Hadith: Muhammad's Legacy in the Medieval and Modern World*. 2009.
+
+*Misquoting Muhammad: The Challenge and Choices of Interpreting the Prophet's Legacy*. , 2014.
+
+*Cartagena Manifesto*. , 1812.
+
+*Jamaica Letter*. *Carta de Jamaica*, 1815.
+
+*Angostura Address*. delivered at the opening of the Congress of Angostura, 1819.
+
+*The End of the Myth: From the Frontier to the Border Wall in the Mind of America*. , 2019.
+
+*Peshat and Derash: Plain and Applied Meaning in Rabbinic Exegesis*. , 1991.
+
+*The Formation of the Babylonian Talmud*. , 2013.
+
+Jonathan Israel. *Radical Enlightenment: Philosophy and the Making of Modernity 1650–1750*. 2001.
+
+*Eichmann in Jerusalem*. , 1963.
+
+*The Untouchables: Who Were They and Why They Became Untouchables*. , 1948.
+
+*Pakistan or the Partition of India*. , 1940.
+
+*Castes in India*. , 1916.
+
+*Republic of Caste: Thinking Equality in the Time of Neoliberal Hindutva*. , 2018.
+
+Arundhati Roy. *The Doctor and the Saint*. the substantial introduction to the annotated *Annihilation of Caste*, 2017.
+
+S. V. Rajadurai. *Towards a Non-Brahmin Millennium: From Iyothee Thass to Periyar*. 1998.
+
+M. S. S. Pandian. *Brahmin and Non-Brahmin: Genealogies of the Tamil Political Present*. 2007.
+
+Garrett Epp. *Democracy Reborn: The Fourteenth Amendment and the Fight for Equal Rights in Post-Civil War America*. 2006.
+
+*A Short History of Reconstruction*. , 1990.
+
+*Black Reconstruction in America, 1860–1880*. , 1935.
+
+*Slaughter-House Cases*. , 1873.
+
+*United States v. Cruikshank*. , 1876.
+
+*Plessy v. Ferguson*. , 1896.
+
+*Lose Your Mother: A Journey Along the Atlantic Slave Route*. , 2007.
+
+Frank Wilderson. *Afropessimism*. 2020.
+
+Tiffany Lethabo King. *The Black Shoals: Offshore Formations of Black and Native Studies*. 2019.
+
+*Necropolitics*. French original 2016, 2019.
+
+AsianCrit, Frank Wu. *Yellow: Race in America Beyond Black and White*. 2001.
+
+
+Indian Removal Act of 1830. United States Public Law 21-148.
+
+Kansas-Nebraska Act of 1854. United States Public Law 33-59.
+
+Sami Act 1987 (Norway). Act of 12 June 1987 No. 56.
+
+Habeas Corpus Act 1679. United Kingdom Parliament. *31 Cha. 2. c. 2*.

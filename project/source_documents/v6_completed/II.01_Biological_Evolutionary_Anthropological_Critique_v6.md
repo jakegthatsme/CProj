@@ -384,3 +384,25 @@ Wilson, Edward O. *The Social Conquest of Earth*. New York: Liveright, 2012.
 Yunkaporta, Tyson. *Sand Talk: How Indigenous Thinking Can Save the World*. New York: HarperOne, 2019.
 
 Ziporyn, Brook, trans. *Zhuangzi: The Essential Writings, with Selections from Traditional Commentaries*. Indianapolis: Hackett, 2009.
+
+Humboldt, Alexander von. *Kosmos: Entwurf einer physischen Weltbeschreibung*. 5 vols. Stuttgart: Cotta, 1845–1862.
+
+Odum, Eugene P. *Fundamentals of Ecology*. Philadelphia: Saunders, 1953.
+
+Buffon, Georges-Louis Leclerc, Comte de. *Histoire Naturelle, générale et particulière*. 36 vols. Paris: Imprimerie Royale, 1749–1788.
+
+Linnaeus, Carl. *Systema Naturae*. 1st edition, Leiden, 1735; 10th edition, 1758.
+
+Jefferson, Thomas. *Notes on the State of Virginia*. London: John Stockdale, 1785; Philadelphia: Prichard and Hall, 1788.
+
+Milton, Damian E. M. "On the Ontological Status of Autism: The 'Double Empathy Problem.'" *Disability & Society* 27, no. 6 (2012): 883–887.
+
+Pendleton Civil Service Reform Act of 1883. United States Public Law 47-27.
+
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+Humboldt. *Cosmos*. –1862, 1845.
+
+
+Milton, Damian E. M. "On the Ontological Status of Autism: The 'Double Empathy Problem.'" *Disability & Society* 27, no. 6 (2012): 883–887.

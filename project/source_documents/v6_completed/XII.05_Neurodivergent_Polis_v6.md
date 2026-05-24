@@ -313,3 +313,6 @@ Butler, Judith. *Undoing Gender*. New York: Routledge, 2004.
 Halberstam, Jack. *In a Queer Time and Place: Transgender Bodies, Subcultural Lives*. New York: New York University Press, 2005.
 
 Walker, Nick. *Neuroqueer Heresies: Notes on the Neurodiversity Paradigm, Autistic Empowerment, and Postnormal Possibilities*. Fort Worth: Autonomous Press, 2021.
+
+Americans with Disabilities Act of 1990. United States Public Law 101-336.
+

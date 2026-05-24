@@ -409,3 +409,8 @@ Kaba, Mariame. *We Do This 'Til We Free Us: Abolitionist Organizing and Transfor
 Mohawk Council of Akwesasne and Haudenosaunee Confederacy. Documentation of the Two Row Wampum (Kaswentha) and the Treaty of Canandaigua (1794). Ongoing documentation.
 
 Waitangi Tribunal. *Reports and Documentation*. Wellington, ongoing. https://www.waitangitribunal.govt.nz/
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+Author. *Truth and Reconciliation Commission of South Africa Report*. 1998.
+

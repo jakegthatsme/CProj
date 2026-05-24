@@ -761,3 +761,16 @@ Document XIV.01 — *Capstone Synthesis* (Part XIV). Sixth-pass constitutional p
 Historical Phase One Synthesis (`Historical_Phase_One_Synthesis.md`). Preserved historical document outside the active sixth-pass arc.
 
 Document 7 to Document IV.01 relocations holding file (`project/relocations/Document_7_relocations.md`).
+
+Kautilya. *Arthashastra*. Translated by Patrick Olivelle as *King, Governance, and Law in Ancient India*. Oxford: Oxford University Press, 2013.
+
+Gell-Mann, Murray. *The Quark and the Jaguar: Adventures in the Simple and the Complex*. New York: Henry Holt, 1994.
+
+Sawyer, R. Keith. *Social Emergence: Societies as Complex Systems*. Cambridge: Cambridge University Press, 2005.
+
+Kahan, Dan M., Hank Jenkins-Smith, and Donald Braman. "Cultural Cognition of Scientific Consensus." *Journal of Risk Research* 14, no. 2 (2011): 147–174.
+
+Anderson, P. W. "More Is Different: Broken Symmetry and the Nature of the Hierarchical Structure of Science." *Science* 177, no. 4047 (1972): 393–396.
+
+Employment Act of 1946. United States Public Law 79-304.
+

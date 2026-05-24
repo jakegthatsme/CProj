@@ -299,3 +299,12 @@ Walker, Nick. *Neuroqueer Heresies: Notes on the Neurodiversity Paradigm, Autist
 Autistic Self Advocacy Network (ASAN). Ongoing documentation including educational-policy work. https://autisticadvocacy.org/
 
 National Center for Learning Disabilities. Ongoing documentation. https://www.ncld.org/
+
+Elementary and Secondary Education Act of 1965. United States Public Law 89-10.
+
+No Child Left Behind Act of 2001. United States Public Law 107-110.
+
+Every Student Succeeds Act of 2015. United States Public Law 114-95.
+
+Education for All Handicapped Children Act of 1975. United States Public Law 94-142 (later amended as the Individuals with Disabilities Education Act).
+

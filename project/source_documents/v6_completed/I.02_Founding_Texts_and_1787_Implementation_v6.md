@@ -1391,3 +1391,40 @@ The normative thesis of the present project, articulated across its analytical a
 - Kate Masur, *Until Justice Be Done: America's First Civil Rights Movement, from the Revolution to Reconstruction* (W. W. Norton, 2021), [https://www.amazon.com/s?k=Kate+Masur+Until+Justice+Be+Done](https://www.amazon.com/s?k=Kate+Masur+Until+Justice+Be+Done).
 
 *End of references.*
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+Algernon Sidney. *Discourses Concerning Government*. 1698.
+
+Author. *Dred Scott v. Sandford*. 1857.
+
+Madison. *Federalist 10*. November 22, 1787.
+
+Author. *Federalist 51*. February 6, 1788.
+
+
+Sami Parliament Act 1992 (Norway). Act of 12 June 1987 No. 56, amended 1992.
+
+Kansas-Nebraska Act of 1854. United States Public Law 33-59.
+
+Curtis Act of 1898. United States Public Law 55-517.
+
+*Worcester v. Georgia*, 31 U.S. (6 Pet.) 515 (1832).
+
+General Allotment Act of 1887 (Dawes Act). United States Public Law 49-105.
+
+Indian Removal Act of 1830. United States Public Law 21-148.
+
+*Johnson v. M'Intosh*, 21 U.S. (8 Wheat.) 543 (1823).
+
+Chieftaincy Act of 1971 (Ghana). Act 370 of 1971.
+
+*Lone Wolf v. Hitchcock*, 187 U.S. 553 (1903).
+
+Voting Rights Act of 1965. United States Public Law 89-110.
+
+Douglass, Frederick. "The Anti-Slavery Movement." Speech, 1852.
+
+*Cherokee Nation v. Georgia*, 30 U.S. (5 Pet.) 1 (1831).
+
+Civil Rights Act of 1875. United States Public Law 43-114.

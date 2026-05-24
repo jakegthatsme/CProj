@@ -480,3 +480,14 @@ Wood, Mary Christina. *Nature's Trust: Environmental Law for a New Ecological Ag
 *Juliana v. United States*. United States District Court for the District of Oregon, 6:15-cv-01517-AA, 2015–present.
 
 *Held v. State of Montana*. Montana Sixteenth Judicial District Court, 2023.
+
+Wilson, David Sloan. *This View of Life: Completing the Darwinian Revolution*. New York: Pantheon, 2019.
+
+Inflation Reduction Act of 2022. United States Public Law 117-169.
+
+Climate Change Act 2008. United Kingdom Parliament. *2008 c. 27*.
+
+Uniform Congressional District Act of 1967. United States Public Law 90-196.
+
+Federal Reserve Act of 1913. United States Public Law 63-43.
+

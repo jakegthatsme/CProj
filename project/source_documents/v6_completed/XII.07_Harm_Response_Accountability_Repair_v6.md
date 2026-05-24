@@ -305,3 +305,10 @@ South African Truth and Reconciliation Commission. *Report of the Truth and Reco
 Declaration of Independence (1776). United States.
 
 Universal Declaration of Human Rights (1948); International Covenant on Civil and Political Rights (1966); International Covenant on Economic, Social and Cultural Rights (1966); Convention on the Rights of Persons with Disabilities (2006); United Nations Declaration on the Rights of Indigenous Peoples (2007).
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+Author. *The Color of Violence: The INCITE! Anthology*. South End Press, 2006.
+
+Author. *Truth and Reconciliation Commission of South Africa Report*. with subsequent codicil report 2003, 1998.
+

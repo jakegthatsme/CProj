@@ -581,3 +581,38 @@ Decidim. *Free Open-Source Participatory Democracy Platform*. https://decidim.or
 Welsh Government. *Well-being of Future Generations (Wales) Act 2015*.
 
 EU Regulation 2022/2065, Digital Services Act.
+
+### Additional Body-Cited Works (Auto-Catalogued)
+
+Patrick Gedde. *Cities in Evolution*. 1915.
+
+Lewis Mumford. *The Culture of Cities*. 1938.
+
+Author. *The City in History*. 1961.
+
+Kirkpatrick Sale. *Dwellers in the Land: The Bioregional Vision*. 1985.
+
+Robert L. Thayer Jr.. *LifePlace: Bioregional Thought and Practice*. 2003.
+
+Author. *Bioregionalism*. 1999.
+
+Author. *Home! A Bioregional Reader*. 1990.
+
+Ostrom. *Governing the Commons*. 1990.
+
+Author. *Dynamex Operations West v. Superior Court*. 2018.
+
+Jonathan Rodden. *Why Cities Lose: The Deep Roots of the Urban-Rural Political Divide*. 2019.
+
+Author. *The Perception Gap*. 2019.
+
+Author. *Two Stories of Distrust in America*. 2021.
+
+
+Ruhl, J. B., and Robert L. Fischman. "Adaptive Management in the Courts." *Minnesota Law Review* 95 (2014).
+
+Berg, Peter, and Raymond Dasmann. "Reinhabiting California." *The Ecologist* 7, no. 10 (1977): 399–401.
+
+Te Urewera Act 2014 (New Zealand). Public Act 2014 No. 51.
+
+Well-being of Future Generations (Wales) Act 2015. Welsh Government, 2015 anaw 2.
