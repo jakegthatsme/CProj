@@ -108,7 +108,7 @@ Every drafted document and every drafted execution plan runs the filler-density 
 
 2. Reports each term's density. Above ten per one thousand words receives inspection: if the term is load-bearing semantic content (e.g., "thread" in a document centrally about threads), the density is acceptable; if it is gestural padding, the document is revised.
 
-3. For "substantive" specifically: target under five per one thousand words. Above eight is a strong signal of filler. Above fifteen is failure requiring rewrite.
+3. For "substantive" specifically: under five per one thousand words. The threshold applies uniformly to all documents including migration documents; above five is a failure requiring remediation through a targeted reduction pass.
 
 4. Runs a doubled-word scan (`\b(\w+)\s+\1\b`) to catch inline-cleanup artifacts.
 
@@ -131,9 +131,13 @@ print(f'doubled-word matches: {len(doubles)}')
 " "$f"
 ```
 
+### Formulaic-Thinness Audit
+
+The filler-discipline audit catches inflation (padding that lifts the standard-twelve densities). It does not catch deflation — drafts in which the formal apparatus (the four-element specification format; cross-citation to other documents; lists of named articulators) replaces analytical engagement. `project/Formulaic_Thinness_Audit.md` specifies the complementary audit. It computes named-scholar-year-work tuples per thread (≥ 3 per substantive Required Thread; ≥ 1 per plan-named primary articulator); sub-right paragraph depth where threads enumerate clusters (≥ 150 words per element when the right is the document's analytical content; < 100 flags formulaic enumeration); four-element-collapsed-clause sentences (≤ 2 per thread); cross-citation ratio (< 25 percent of analytical sentences); and tradition-and-movement concreteness (every named movement/tradition carries at least one named instance in the body). A document fails the audit when any substantive Required Thread enumerates sub-rights or cluster elements at single-sentence labelled-clause depth, or cross-cites to other documents without doing the formal-architectural work at the present document's register, or names primary articulators in the references without engaging them at scholar-year-work tuple depth in the body. Migration documents and explicit cross-citation threads carry the exemptions specified in the audit protocol. The audit runs at the gate alongside the filler-discipline audit; the eight-criterion completeness check is extended to a ninth criterion (the formulaic-thinness audit passes).
+
 ### Completeness-Check Gate
 
-The sixth pass is a completeness-gated migration. Every active document — including the seven substantively-drafted v5 documents (1, 2, 3, A, M, W, R) — passes the completeness check before it is renamed under the v6 convention and admitted to `v6_completed/`. A document that fails does not enter `v6_completed/` until remediated and re-checked. The historical Document 6 is exempt (no plan, no required threads). A document passes when all eight criteria hold:
+The sixth pass is a completeness-gated migration. Every active document — including the seven substantively-drafted v5 documents (1, 2, 3, A, M, W, R) — passes the completeness check before it is renamed under the v6 convention and admitted to `v6_completed/`. A document that fails does not enter `v6_completed/` until remediated and re-checked. The historical Document 6 is exempt (no plan, no required threads). A document passes when all nine criteria hold (criteria 1–8 below plus the formulaic-thinness audit specified above):
 
 1. Every Required Thread named in the plan is executed in the draft.
 2. Every primary articulator named in the plan is engaged at primary-articulator standing, with tribal/identity affiliation where applicable and full first-mention conventions.
@@ -323,6 +327,27 @@ At the start of every session:
 9. Ask the user: "Ready to draft <deliverable> (<stage or phase>). Proceed?"
 
 Wait for confirmation before drafting.
+
+---
+
+## Continue-Plan Protocol
+
+When the user opens a session with **"continue plan"** — or "continue", "resume", "next", or any equivalent — it is a standing instruction to **self-orient and execute the next project deliverable** without the user naming any document, file, folder, branch, or phase. Treat "continue plan" as both the instruction and the proceed-confirmation: do not run the Session Start Protocol's step-9 question. Instead, state in one sentence what the next deliverable is, then do it.
+
+Self-orientation algorithm:
+
+1. **Branch.** All v6 work lives on branch `claude/kickoff-prompt-v6-M03uX` (the forty-two execution plans and every completed v6 document). Run `git branch --show-current`. If the session is not on that branch, `git fetch origin claude/kickoff-prompt-v6-M03uX` and bring the working tree to that branch's state (`git checkout`, or merge it into the harness-fixed branch). If that state cannot be reached, stop and tell the user — do not proceed on an empty or wrong branch.
+
+2. **Determine the stage.**
+   - If `outputs/v6_plans/` or `project/source_documents/v6_completed/` does not exist → **Stage 0**: run `project/Claude_Code_Kickoff_Prompt_v6.md`, produce the scaffolding and manifests, stop for confirmation.
+   - If `outputs/v6_plans/` holds fewer than forty-two `Execution_Plan_*_v6.md` files → **Stage 1**: author the next missing plan per `Sixth_Pass_Planning_Document.md` Section X (order: seven new → eleven revised → one major → twenty-three migrated).
+   - If all forty-two plans exist → **Stage 2**: document drafting.
+
+3. **Stage 2 — find the next deliverable.** Read `project/Stage2_Session_Plan.md`. List `project/source_documents/v6_completed/`. The next deliverable is the first document in that file's Session Sequence (strict phase order v6.α → v6.ι) for which no `<id>_v6.md` file yet exists in `v6_completed/`. Draft it per the focused-session workflow and the two transition policies recorded in `Stage2_Session_Plan.md`: read its plan and the substrate the plan names, draft to `v6_completed/`, run the eight-criterion completeness-check gate (Self-Audit Protocols, above), commit, and push.
+
+4. **Report and scope.** One "continue plan" completes one deliverable — one document, or one batch of up to four cross-reference-revision documents under the relaxed checkpoint — then gives the per-document checkpoint and names the next deliverable. The user may widen the scope explicitly ("continue plan through Phase v6.γ", "continue until an issue arises"); honor the stated width.
+
+"Continue plan" does not override the Ambiguity Handling section: if the next step is genuinely ambiguous, a cross-referenced upstream document is missing, or a source contradicts a plan, stop and escalate in the required format rather than guessing.
 
 ---
 
