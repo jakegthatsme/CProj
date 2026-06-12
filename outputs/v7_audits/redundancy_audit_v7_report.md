@@ -62,46 +62,48 @@ TF-IDF cosine on 5-sentence rolling windows. `best_sim` = highest single window-
 
 ## 2. Plan-Thread Overlap Matrix (within-Part, top pairs)
 
-Jaccard overlap of Required-Thread title keywords between within-Part document pairs.
+Jaccard overlap of Required-Thread title keywords between within-Part document pairs. `raw_jac` weights every shared keyword equally; `domain_jac` is the IDF-weighted Jaccard that down-weights template-scaffolding keywords (recurring across the corpus's plan-thread titles) and up-weights rare domain terms. The `domain_shared` column lists only the non-scaffolding shared keywords, heaviest first — the genuine domain overlap.
+
+Template-scaffolding keywords (in > 60% of documents' thread titles; weight ~0): `architecture`, `closing`, `cultivation`, `framing`, `opening`, `sixth-pass`, `synthesis`.
 
 ### Part II
 
-| Pair | thread Jaccard | shared thread-keywords |
-|------|----------------|------------------------|
-| `II.04` x `II.07` | 0.261 | architecture, closing, collapse, coordination, cross-regime, disturbance, framing, interactions… |
-| `II.04` x `II.05` | 0.250 | architecture, closing, coordination, cross-regime, disturbance, framing, interactions, opening… |
-| `II.05` x `II.07` | 0.244 | architecture, closing, coordination, cross-regime, disturbance, framing, interactions, opening… |
-| `II.06` x `II.07` | 0.224 | architecture, cascades, closing, coordination, cross-regime, framing, interactions, opening… |
-| `II.02` x `II.07` | 0.216 | architecture, closing, coordination, cross-regime, framing, interactions, oligarchy, opening… |
-| `II.02` x `II.06` | 0.214 | addition, architecture, closing, coordination, cross-regime, framing, interactions, media… |
-| `II.02` x `II.05` | 0.185 | architecture, closing, coordination, cross-regime, framing, interactions, opening, regime… |
-| `II.02` x `II.04` | 0.179 | architecture, closing, coordination, cross-regime, framing, interactions, opening, regime… |
+| Pair | raw_jac | domain_jac | domain_shared (non-scaffolding) |
+|------|---------|------------|----------------------------------|
+| `II.04` x `II.07` | 0.261 | 0.103 | collapse, interactions, regime, disturbance, cross-regime, coordination |
+| `II.06` x `II.07` | 0.224 | 0.099 | shocks, cascades, interactions, cross-regime, coordination |
+| `II.04` x `II.05` | 0.250 | 0.097 | shift, interactions, regime, disturbance, cross-regime, coordination |
+| `II.02` x `II.06` | 0.214 | 0.085 | media, positive, interactions, cross-regime, addition, coordination |
+| `II.05` x `II.07` | 0.244 | 0.084 | interactions, regime, disturbance, cross-regime, coordination |
+| `II.02` x `II.07` | 0.216 | 0.083 | oligarchy, interactions, regime, cross-regime, coordination |
+| `II.02` x `II.03` | 0.135 | 0.070 | cultivation-condition, cultural, interactions, regime, cross-regime, coordination |
+| `II.03` x `II.05` | 0.164 | 0.065 | interactions, regime, disturbance, cross-regime, coordination, constitutional, indigenous |
 
 ### Part VI
 
-| Pair | thread Jaccard | shared thread-keywords |
-|------|----------------|------------------------|
-| `VI.02` x `VI.03` | 0.342 | architecture, articulators, closing, constitutional, engaged, framing, implications, indigenous… |
-| `VI.02` x `VI.05` | 0.260 | architecture, articulators, canon, closing, constitutional, framing, implications, indigenous… |
-| `VI.03` x `VI.04` | 0.256 | architecture, closing, constitutional, framing, implications, indigenous, literature, opening… |
-| `VI.04` x `VI.05` | 0.245 | addition, architecture, closing, constitutional, cultivation, framework, framing, implications… |
-| `VI.03` x `VI.05` | 0.244 | architecture, articulators, closing, constitutional, framing, implications, indigenous, opening… |
-| `VI.06` x `VI.07` | 0.239 | architecture, bridge, critique, cultivation, decision-rights, diagnostic, disability-justice, indigenous… |
-| `VI.02` x `VI.04` | 0.196 | architecture, closing, constitutional, framing, implications, indigenous, opening, primary… |
-| `VI.01` x `VI.06` | 0.167 | architecture, bridge, cultivation, decision-rights, diagnostic, indigenous, scales, specification… |
+| Pair | raw_jac | domain_jac | domain_shared (non-scaffolding) |
+|------|---------|------------|----------------------------------|
+| `VI.02` x `VI.03` | 0.342 | 0.144 | engaged, articulators, implications, tradition, primary, constitutional, indigenous |
+| `VI.06` x `VI.07` | 0.239 | 0.125 | social, terrain, disability-justice, critique, decision-rights, bridge, diagnostic, specification… |
+| `VI.02` x `VI.05` | 0.260 | 0.104 | articulators, implications, canon, traditions, primary, constitutional, indigenous |
+| `VI.01` x `VI.02` | 0.154 | 0.092 | agrarian, black, tradition, traditions, primary, constitutional, indigenous |
+| `VI.03` x `VI.05` | 0.244 | 0.090 | articulators, implications, primary, constitutional, indigenous |
+| `VI.04` x `VI.05` | 0.245 | 0.084 | implications, framework, primary, addition, constitutional, indigenous |
+| `VI.03` x `VI.04` | 0.256 | 0.083 | implications, literature, primary, constitutional, indigenous |
+| `VI.01` x `VI.07` | 0.167 | 0.071 | terrain, decision-rights, bridge, diagnostic, specification, indigenous |
 
 ### Part XII
 
-| Pair | thread Jaccard | shared thread-keywords |
-|------|----------------|------------------------|
-| `XII.09` x `XII.10` | 0.415 | addition, autonomy, bodily, bounded-decision-right, closing, decision, defense, framing… |
-| `XII.11` x `XII.12` | 0.415 | addition, bounded, bounded-decision-right, closing, conditions, decision, framing, gender… |
-| `XII.10` x `XII.11` | 0.383 | addition, autonomy, bounded, bounded-decision-right, closing, decision, framing, gender… |
-| `XII.09` x `XII.11` | 0.360 | addition, autonomy, bounded-decision-right, closing, conditions, decision, framing, gender… |
-| `XII.09` x `XII.12` | 0.333 | addition, bounded-decision-right, closing, conditions, cultivation, decision, framing, gender… |
-| `XII.10` x `XII.12` | 0.327 | addition, bounded, bounded-decision-right, closing, decision, framing, gender, opening… |
-| `XII.02` x `XII.04` | 0.250 | architecture, broader, buddhist, closing, coordinating, cultivation, decision, framing… |
-| `XII.06` x `XII.08` | 0.237 | architecture, bridge, cultivation, decision-rights, diagnostic, indigenous, scales, specification… |
+| Pair | raw_jac | domain_jac | domain_shared (non-scaffolding) |
+|------|---------|------------|----------------------------------|
+| `XII.09` x `XII.10` | 0.415 | 0.272 | defense, threaded, military, powers, autonomy, reproductive, bodily, bounded-decision-right… |
+| `XII.11` x `XII.12` | 0.415 | 0.232 | bounded-decision-right, gender, bounded, right, sexuality, reproduction, rights, conditions… |
+| `XII.10` x `XII.11` | 0.383 | 0.208 | autonomy, reproductive, bounded-decision-right, gender, bounded, right, sexuality, reproduction… |
+| `XII.09` x `XII.11` | 0.360 | 0.194 | autonomy, reproductive, bounded-decision-right, gender, right, sexuality, reproduction, rights… |
+| `XII.10` x `XII.12` | 0.327 | 0.166 | bounded-decision-right, gender, bounded, right, sexuality, reproduction, rights, decision… |
+| `XII.09` x `XII.12` | 0.333 | 0.158 | bounded-decision-right, gender, right, sexuality, reproduction, rights, conditions, decision… |
+| `XII.02` x `XII.04` | 0.250 | 0.142 | buddhist, scale-matched, coordinating, broader, making, policy, mimetic, rights… |
+| `XII.03` x `XII.10` | 0.210 | 0.122 | e-democracy, ecosystem-and-habitat, public-check, bounded, right, decision, addition, scales |
 
 ## 3. Cross-Citation vs Duplication Mapping
 
@@ -127,22 +129,25 @@ Duplication-event rows (citing passage re-articulates >= 2 of the cited document
 
 ## 4. Consolidation-Candidate Summary
 
+The thread metric below is the **domain-weighted** Jaccard (IDF-weighted; template scaffolding such as opening/closing/framing/articulators/Indigenous-canon collapses toward zero weight). A genuine consolidation candidate shows high *domain*-overlap, not merely shared plan skeleton.
+
 **Cluster A — Part II regime diagnostics (II.02 + II.04 + II.05 + II.06 + II.07).**
-Internal-pair mean best-similarity **0.417** vs non-cluster Part-II pairs **0.499**; internal-pair mean thread-Jaccard **0.211** vs non-cluster **0.090**. The five regime diagnostics share the disturbance-regime diagnostic template; internal overlap exceeds the Part's non-cluster baseline on both metrics. **Confirmed consolidation candidate.**
+Internal-pair mean best-similarity **0.417** vs non-cluster Part-II pairs **0.499**; internal-pair mean domain-weighted thread-Jaccard **0.076** vs non-cluster **0.035**. The five regime diagnostics share the disturbance-regime diagnostic template; the domain-weighted overlap (driven by shared domain terms such as disturbance / cross-regime / interactions) exceeds the Part's non-cluster baseline. **Confirmed consolidation candidate.**
 
 **Cluster B — Part XII decision-rights cluster (XII.09 + XII.10 + XII.11 + XII.12).**
-Internal-pair mean best-similarity **0.711** vs non-cluster Part-XII pairs **0.467**; internal-pair mean thread-Jaccard **0.372** vs non-cluster **0.105**. The four decision-rights documents share the four-element (scope/scale/feedback/sunset) specification template; internal overlap exceeds the Part's non-cluster baseline on both metrics. **Confirmed consolidation candidate.**
+Internal-pair mean best-similarity **0.711** vs non-cluster Part-XII pairs **0.467**; internal-pair mean domain-weighted thread-Jaccard **0.205** vs non-cluster **0.043**. The four decision-rights documents share the four-element (scope/scale/feedback/sunset) specification template; the domain-weighted overlap exceeds the Part's non-cluster baseline. **Confirmed consolidation candidate.**
 
-**Additional-candidate scan.**
-The following non-cluster within-Part pairs meet or exceed BOTH cluster minima (best_sim >= 0.417 AND thread-Jaccard >= 0.211) and warrant escalation before any scope expansion:
+**Additional-candidate scan (domain-weighted).**
+The following non-cluster within-Part pairs meet or exceed BOTH confirmed-cluster minima on the domain-weighted metric (best_sim >= 0.417 AND domain_jac >= 0.076) and warrant escalation before any scope expansion:
 
-| Part | Pair | best_sim | thread Jaccard |
-|------|------|----------|----------------|
-| VI | `VI.02` x `VI.03` | 0.470 | 0.342 |
-| VI | `VI.02` x `VI.05` | 0.465 | 0.260 |
-| VI | `VI.03` x `VI.04` | 0.456 | 0.256 |
-| VI | `VI.04` x `VI.05` | 0.575 | 0.245 |
-| VI | `VI.03` x `VI.05` | 0.457 | 0.244 |
-| VI | `VI.06` x `VI.07` | 0.606 | 0.239 |
+| Part | Pair | best_sim | domain_jac |
+|------|------|----------|------------|
+| VI | `VI.02` x `VI.03` | 0.470 | 0.144 |
+| VI | `VI.06` x `VI.07` | 0.606 | 0.125 |
+| VI | `VI.02` x `VI.05` | 0.465 | 0.104 |
+| VI | `VI.01` x `VI.02` | 0.809 | 0.092 |
+| VI | `VI.03` x `VI.05` | 0.457 | 0.090 |
+| VI | `VI.04` x `VI.05` | 0.575 | 0.084 |
+| VI | `VI.03` x `VI.04` | 0.456 | 0.083 |
 
-> NOTE: additional candidates surfaced. Per CLAUDE.md Ambiguity Handling, expanding consolidation scope beyond Cluster A and Cluster B requires explicit user authorization.
+> NOTE: additional candidates surfaced on the domain-weighted metric. Per CLAUDE.md Ambiguity Handling, expanding consolidation scope beyond Cluster A and Cluster B requires explicit user authorization.

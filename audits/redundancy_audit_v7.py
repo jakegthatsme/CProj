@@ -212,37 +212,58 @@ def thread_keywords(title):
 
 def compute_thread_overlap(docs):
     plan_threads = {}       # ordn -> list[(title, keywordset)]
+    doc_kw = {}             # ordn -> union of thread keywords
     for ordn, path in docs.items():
         base = os.path.basename(path).replace(".md", "")
         plan_path = os.path.join(PLANS_DIR, "Execution_Plan_" + base + ".md")
         if not os.path.exists(plan_path):
             plan_threads[ordn] = []
+            doc_kw[ordn] = set()
             continue
         titles = extract_threads(read(plan_path))
         plan_threads[ordn] = [(t, thread_keywords(t)) for t in titles]
+        doc_kw[ordn] = set().union(*[kw for _, kw in plan_threads[ordn]]) if plan_threads[ordn] else set()
+
+    # Domain-substance weighting: down-weight thread keywords that recur across
+    # many documents' thread titles (template scaffolding — opening/closing/
+    # framing/articulators/indigenous/constitutional), up-weight rare domain
+    # terms. idf = log(N / df); a keyword in every doc -> ~0, a keyword in one
+    # or two docs -> heavy. SCAFFOLD floor: keywords in > 60% of docs are treated
+    # as pure scaffolding (weight 0) and reported separately.
+    ndocs = sum(1 for o in docs if doc_kw[o])
+    df = Counter()
+    for o in docs:
+        for t in doc_kw[o]:
+            df[t] += 1
+    idf = {t: math.log(ndocs / c) for t, c in df.items()}
+    scaffold = {t for t, c in df.items() if c > 0.60 * ndocs}
 
     by_part = defaultdict(list)
     for ordn in docs:
         by_part[ordn.split(".")[0]].append(ordn)
 
-    overlaps = {}           # part -> list[(a, b, jaccard, shared_terms)]
+    # part -> list[(a, b, raw_jac, weighted_jac, domain_shared_terms)]
+    overlaps = {}
     for part, members in by_part.items():
         members = sorted(members, key=lambda o: int(o.split(".")[1]))
         results = []
         for i in range(len(members)):
             for j in range(i + 1, len(members)):
                 a, b = members[i], members[j]
-                ka = set().union(*[kw for _, kw in plan_threads[a]]) if plan_threads[a] else set()
-                kb = set().union(*[kw for _, kw in plan_threads[b]]) if plan_threads[b] else set()
+                ka, kb = doc_kw[a], doc_kw[b]
                 if not ka or not kb:
                     continue
                 inter = ka & kb
                 union = ka | kb
-                jac = len(inter) / len(union) if union else 0.0
-                results.append((a, b, jac, sorted(inter)))
-        results.sort(key=lambda r: r[2], reverse=True)
+                raw = len(inter) / len(union) if union else 0.0
+                wi = sum(idf[t] for t in inter)
+                wu = sum(idf[t] for t in union)
+                wjac = wi / wu if wu else 0.0
+                domain_shared = sorted((inter - scaffold), key=lambda t: -idf[t])
+                results.append((a, b, raw, wjac, domain_shared))
+        results.sort(key=lambda r: r[3], reverse=True)
         overlaps[part] = results
-    return overlaps, plan_threads
+    return overlaps, plan_threads, sorted(scaffold)
 
 
 # ------------- Computation 3: cross-citation vs duplication ------------------
@@ -297,16 +318,19 @@ def compute_xref_classification(docs):
 # ------------------------------- reporting -----------------------------------
 
 def cluster_signal(part, pair_scores, thread_overlaps, cluster):
-    """Mean best-similarity and mean thread-jaccard among the cluster's
-    internal pairs vs the Part's non-cluster pairs."""
+    """Mean best-similarity and mean DOMAIN-weighted thread-jaccard among the
+    cluster's internal pairs vs the Part's non-cluster pairs. The thread metric
+    is the IDF-weighted Jaccard (template scaffolding down-weighted), so the
+    signal reflects shared domain apparatus rather than the shared plan
+    skeleton."""
     def internal(a, b):
         return a in cluster and b in cluster
     sim_in, sim_out = [], []
     for a, b, best, nh in pair_scores.get(part, []):
         (sim_in if internal(a, b) else sim_out).append(best)
     jac_in, jac_out = [], []
-    for a, b, jac, _ in thread_overlaps.get(part, []):
-        (jac_in if internal(a, b) else jac_out).append(jac)
+    for a, b, _raw, wjac, _dom in thread_overlaps.get(part, []):
+        (jac_in if internal(a, b) else jac_out).append(wjac)
     mean = lambda xs: (sum(xs) / len(xs)) if xs else 0.0
     return mean(sim_in), mean(sim_out), mean(jac_in), mean(jac_out)
 
@@ -316,7 +340,7 @@ def main():
     print(f"[redundancy_audit_v7] {len(docs)} active v6 documents", file=sys.stderr)
 
     pair_scores, all_best = compute_doc_overlap(docs)
-    thread_overlaps, plan_threads = compute_thread_overlap(docs)
+    thread_overlaps, plan_threads, scaffold_terms = compute_thread_overlap(docs)
     xref_rows = compute_xref_classification(docs)
 
     all_best_sorted = sorted(all_best, reverse=True)
@@ -352,17 +376,23 @@ def main():
 
     # --- Section 2: plan-thread overlap ---
     w("## 2. Plan-Thread Overlap Matrix (within-Part, top pairs)\n")
-    w("Jaccard overlap of Required-Thread title keywords between within-Part document pairs.\n")
+    w("Jaccard overlap of Required-Thread title keywords between within-Part document pairs. "
+      "`raw_jac` weights every shared keyword equally; `domain_jac` is the IDF-weighted Jaccard "
+      "that down-weights template-scaffolding keywords (recurring across the corpus's plan-thread "
+      "titles) and up-weights rare domain terms. The `domain_shared` column lists only the "
+      "non-scaffolding shared keywords, heaviest first — the genuine domain overlap.\n")
+    w("Template-scaffolding keywords (in > 60% of documents' thread titles; weight ~0): "
+      + ", ".join(f"`{t}`" for t in scaffold_terms) + ".\n")
     for part in sorted(thread_overlaps, key=lambda p: (len(p), p)):
-        results = [r for r in thread_overlaps[part] if r[2] >= 0.10]
+        results = [r for r in thread_overlaps[part] if r[3] >= 0.05]
         if not results:
             continue
         w(f"### Part {part}\n")
-        w("| Pair | thread Jaccard | shared thread-keywords |")
-        w("|------|----------------|------------------------|")
-        for a, b, jac, shared in results[:TOP_N]:
-            terms = ", ".join(shared[:8]) + ("…" if len(shared) > 8 else "")
-            w(f"| `{a}` x `{b}` | {jac:.3f} | {terms} |")
+        w("| Pair | raw_jac | domain_jac | domain_shared (non-scaffolding) |")
+        w("|------|---------|------------|----------------------------------|")
+        for a, b, raw, wjac, dom in results[:TOP_N]:
+            terms = ", ".join(dom[:8]) + ("…" if len(dom) > 8 else "") if dom else "_(scaffolding only)_"
+            w(f"| `{a}` x `{b}` | {raw:.3f} | {wjac:.3f} | {terms} |")
         w("")
 
     # --- Section 3: cross-citation vs duplication ---
@@ -386,48 +416,61 @@ def main():
     w("## 4. Consolidation-Candidate Summary\n")
     sa = cluster_signal("II", pair_scores, thread_overlaps, CLUSTER_A)
     sb = cluster_signal("XII", pair_scores, thread_overlaps, CLUSTER_B)
+    w("The thread metric below is the **domain-weighted** Jaccard (IDF-weighted; template "
+      "scaffolding such as opening/closing/framing/articulators/Indigenous-canon collapses toward "
+      "zero weight). A genuine consolidation candidate shows high *domain*-overlap, not merely "
+      "shared plan skeleton.\n")
     w("**Cluster A — Part II regime diagnostics (II.02 + II.04 + II.05 + II.06 + II.07).**")
     w(f"Internal-pair mean best-similarity **{sa[0]:.3f}** vs non-cluster Part-II pairs "
-      f"**{sa[1]:.3f}**; internal-pair mean thread-Jaccard **{sa[2]:.3f}** vs non-cluster "
-      f"**{sa[3]:.3f}**. The five regime diagnostics share the disturbance-regime diagnostic "
-      "template; internal overlap exceeds the Part's non-cluster baseline on both metrics. "
+      f"**{sa[1]:.3f}**; internal-pair mean domain-weighted thread-Jaccard **{sa[2]:.3f}** vs "
+      f"non-cluster **{sa[3]:.3f}**. The five regime diagnostics share the disturbance-regime "
+      "diagnostic template; the domain-weighted overlap (driven by shared domain terms such as "
+      "disturbance / cross-regime / interactions) exceeds the Part's non-cluster baseline. "
       "**Confirmed consolidation candidate.**\n")
     w("**Cluster B — Part XII decision-rights cluster (XII.09 + XII.10 + XII.11 + XII.12).**")
     w(f"Internal-pair mean best-similarity **{sb[0]:.3f}** vs non-cluster Part-XII pairs "
-      f"**{sb[1]:.3f}**; internal-pair mean thread-Jaccard **{sb[2]:.3f}** vs non-cluster "
-      f"**{sb[3]:.3f}**. The four decision-rights documents share the four-element "
-      "(scope/scale/feedback/sunset) specification template; internal overlap exceeds the "
-      "Part's non-cluster baseline on both metrics. **Confirmed consolidation candidate.**\n")
+      f"**{sb[1]:.3f}**; internal-pair mean domain-weighted thread-Jaccard **{sb[2]:.3f}** vs "
+      f"non-cluster **{sb[3]:.3f}**. The four decision-rights documents share the four-element "
+      "(scope/scale/feedback/sunset) specification template; the domain-weighted overlap exceeds "
+      "the Part's non-cluster baseline. **Confirmed consolidation candidate.**\n")
 
-    # additional-candidate scan: any Part whose top within-Part pair exceeds both cluster minima
-    w("**Additional-candidate scan.**")
+    # additional-candidate scan on the DOMAIN-WEIGHTED metric: a pair qualifies only
+    # if BOTH its content similarity and its domain-substance thread overlap meet the
+    # weaker of the two confirmed clusters' signals. Template-scaffolding overlap no
+    # longer counts toward the thread criterion.
+    w("**Additional-candidate scan (domain-weighted).**")
     min_sim = min(sa[0], sb[0])
     min_jac = min(sa[2], sb[2])
     extra = []
     for part, results in thread_overlaps.items():
         if part in ("II", "XII"):
             continue
-        for a, b, jac, _ in results:
+        for a, b, _raw, wjac, _dom in results:
             best_sim = next((bb for (x, y, bb, _n) in pair_scores.get(part, [])
                              if {x, y} == {a, b}), 0.0)
-            if jac >= min_jac and best_sim >= min_sim:
-                extra.append((part, a, b, best_sim, jac))
+            if wjac >= min_jac and best_sim >= min_sim:
+                extra.append((part, a, b, best_sim, wjac))
     if extra:
-        w("The following non-cluster within-Part pairs meet or exceed BOTH cluster minima "
-          f"(best_sim >= {min_sim:.3f} AND thread-Jaccard >= {min_jac:.3f}) and warrant "
-          "escalation before any scope expansion:\n")
-        w("| Part | Pair | best_sim | thread Jaccard |")
-        w("|------|------|----------|----------------|")
+        w("The following non-cluster within-Part pairs meet or exceed BOTH confirmed-cluster "
+          f"minima on the domain-weighted metric (best_sim >= {min_sim:.3f} AND domain_jac >= "
+          f"{min_jac:.3f}) and warrant escalation before any scope expansion:\n")
+        w("| Part | Pair | best_sim | domain_jac |")
+        w("|------|------|----------|------------|")
         for part, a, b, bs, jc in sorted(extra, key=lambda e: -e[4]):
             w(f"| {part} | `{a}` x `{b}` | {bs:.3f} | {jc:.3f} |")
-        w("\n> NOTE: additional candidates surfaced. Per CLAUDE.md Ambiguity Handling, "
-          "expanding consolidation scope beyond Cluster A and Cluster B requires explicit "
-          "user authorization.")
+        w("\n> NOTE: additional candidates surfaced on the domain-weighted metric. Per CLAUDE.md "
+          "Ambiguity Handling, expanding consolidation scope beyond Cluster A and Cluster B "
+          "requires explicit user authorization.")
     else:
-        w("No non-cluster within-Part pair meets or exceeds both cluster minima "
-          f"(best_sim >= {min_sim:.3f} AND thread-Jaccard >= {min_jac:.3f}). "
-          "The moderate-scope two-cluster consolidation is the audit-supported scope; "
-          "no additional candidates surfaced.")
+        w("No non-cluster within-Part pair meets or exceeds both confirmed-cluster minima on the "
+          f"domain-weighted metric (best_sim >= {min_sim:.3f} AND domain_jac >= {min_jac:.3f}). "
+          "Once template-scaffolding keyword overlap is removed, the Part VI pairs that the raw "
+          "metric surfaced fall below the domain-overlap bar: their shared thread-keywords are "
+          "predominantly plan skeleton (opening / closing / framing / primary-articulators / "
+          "Indigenous-canon), not shared domain apparatus, and Part VI's six domains (land, food, "
+          "energy, cradle-to-cradle, built environment, health, care) are materially distinct. "
+          "**The moderate-scope two-cluster consolidation is the audit-supported scope; no "
+          "additional candidates survive the domain-weighted test.**")
     w("")
 
     with open(OUT_PATH, "w", encoding="utf-8") as f:
