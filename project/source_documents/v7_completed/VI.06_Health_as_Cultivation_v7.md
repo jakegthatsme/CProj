@@ -122,6 +122,20 @@ The environmental-health literature specifies health as a phenomenon crossing th
 
 ---
 
+# Part Eight-bis — Eastern, Islamic, and African Health Ontologies at Primary-Articulator Standing
+
+## Thread H-bis — Health as Dynamic Balance and Relational Harmony
+
+The preceding threads carried the social-determinants, One Health, Indigenous-health-sovereignty, medical-anthropology, and disability-justice critiques against the engineered-medical-system model. The Eastern, Islamic, and African health traditions articulate the health-as-cultivation and health-as-relation commitment at primary-articulator standing, and the document engages them here in their own registers rather than as comparative supplement, because the reconception of health from the repair of a broken machine to the cultivation of a dynamic balance is articulated most fully in these traditions.
+
+The East and South Asian medical traditions carry the health-as-balance ontology at primary-articulator standing. Traditional Chinese medicine conceives health as the dynamic balance and free circulation of *qì* through the body's systems, with illness understood as disharmony or blockage rather than as the presence of a discrete pathogen to be eliminated, and with the orientation accordingly preventive and cultivational — the maintenance of balance over time — rather than interventionist after breakdown. The Ayurvedic tradition of the Indian subcontinent conceives health as the balance of the three *doṣas* (*vāta*, *pitta*, *kapha*) within a constitution (*prakṛti*) that is individual to the person, so that health is not a single normative state but the equilibrium proper to each particular body — an ontology that anticipates the disability-justice critique of the medical model's single able-bodied norm (Thread G) by locating health in the balance proper to each constitution rather than in conformity to a population standard. These traditions stand at primary-articulator standing on the health-as-dynamic-balance commitment the engineered-medical-system model (Thread B) displaced.
+
+The Islamic and African traditions carry the health-as-relation commitment. The Islamic medical tradition (*ṭibb*, including the Unani humoral system and the prophetic-medicine tradition) conceives health as the balance of the body's humors and as embedded in the ethical and communal life of the person, with the obligation of care a binding communal duty rather than a market transaction. The African health traditions, grounded in the *ubuntu* relational ontology, conceive health as harmony among the person, the community, the ancestors, and the land — illness read not only as an individual bodily event but as a disturbance in the web of relations of which the person is constituted, and healing accordingly conducted through the restoration of relationship by the traditional healer working with the community rather than through the isolated treatment of an individual body. The African relational health ontology carries the health-as-membership commitment (Thread D) and the Indigenous-health-sovereignty commitment (Thread E) into the register of relational personhood, and the Buddhist contemplative traditions — now recovered partially in the Western mind-body and mindfulness-based clinical literatures — carry the cultivation of the mind-body relation as a health practice at primary-articulator standing.
+
+These traditions differ in their cosmologies and their therapeutic forms, and the cultivation discipline holds the differences in their own registers rather than synthesizing them into a single holistic-health model. What they articulate at primary-articulator standing against the engineered-medical-system model is the reconception of health as the cultivation of a dynamic balance and the maintenance of a web of relations — health as conditioned, relational, individual to each constitution, and cultivated across time rather than repaired after breakdown.
+
+---
+
 # Part Nine — The Cultivation Specification and the Bridge to the Decision-Rights Architecture
 
 ## Thread I — What the Constitutional Architecture Must Enable
