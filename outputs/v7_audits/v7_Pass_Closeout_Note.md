@@ -55,8 +55,19 @@ The seventh pass names the following as downstream work, consistent with the dis
 
 ---
 
+## Eighth-Pass Increment (post-v7)
+
+After the v7 pass closed, an eighth-pass increment was undertaken (kept under `_v7` filenames to preserve cross-reference coherence; see `Eighth_Pass_Audit_v7.md`, I-4). It comprises:
+
+- **`XII.13_War_Powers_and_the_Security_State_v7`** — the standalone war-powers / security-state / non-militarism door the v6 and v7 capstones named as deferred; threaded across the corpus (II.03, II.08, XII.09, XIII.01, X.01, XIV.01) and both derivatives.
+- **Non-Western deepening toward parity** — engagement-depth primary-articulator insertions in twelve documents (X.01, VI.01, VI.02, VI.03, VI.06, VI.07, IX.01, II.09, XII.06, XII.07, XII.08, XI.01) plus the deep multi-traditional engagement native to XII.13; coverage matrix in the eighth-pass audit (H-2).
+- **`outputs/v7_audits/Eighth_Pass_Audit_v7.md`** — honest goal-realization audit (no fatal flaws; resolvable tensions, inconsistencies, and holes enumerated and largely closed; the Phase-7δ collapsed-range false-negative class found and fixed corpus-wide).
+- **`project/Rights_Holder_Consultation_Consent_and_Co_Authorship_Protocol.md`** — the concrete response to the appropriation indictment (audit V-1): an acknowledgment without defense that the corpus as it stands engages its traditions without rights-holders' prior consent or authorship, and a free-prior-and-informed-consent process (UNDRIP, CARE, OCAP®, TK/BC labels, right of refusal; bound to benefit-sharing and the land-and-sovereignty demand) graded from attribution through co-authorship to withdrawal. Until that process is undertaken, the corpus is to be described as a settler-authored draft offered for the rights-holders' correction, not as a multi-traditional synthesis.
+
+Corpus state after the increment: 36 active documents; doubled-word 0 corpus-wide; same-document collapsed ranges 0; orphan `_v6` only the 3 capstone-antecedent exceptions; stale v5 `outputs/CLAUDE.md` removed.
+
 ## Provenance Notes
 
 - Branch: `claude/focused-franklin-AfoMw`.
-- The v5 `outputs/CLAUDE.md` is a stale prior-pass artifact and is not governing; the root `CLAUDE.md` (v7) governs.
+- The stale v5 `outputs/CLAUDE.md` (a prior-pass artifact) was removed in the eighth-pass increment; the root `CLAUDE.md` (v7) governs.
 - The "modified by linter" notices on `XIV.01_Capstone_Synthesis_v7` are intentional and were not reverted.
